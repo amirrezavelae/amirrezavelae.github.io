@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "HELLOO00 Dear Visitor"
+title: "Amirrea's page"
 author_profile: true
 redirect_from:
   - /about/
@@ -32,12 +32,12 @@ You can have a look at summary of my resume below or check my [CV](https://amirr
 
 ## Selected Advanced Courses
 - Machine Learning (19.5/20.0)
-- Deep Learning *Graduated Course* (17.2/20.0)
+- Deep Learning <span style="color:red">*Graduated Course* </span> (17.2/20.0)
 - Game Theory (Currently Enrolled)
 - Optimization (Currently Enrolled)
 - Stochastic Processes (Self-Studied)
-- Reinforcement Learning *Graduated Course* (Currently Enrolled)
-- Random Walks and Percolation *Graduated Course* (Currently Auditing)
+- Reinforcement Learning <span style="color:red">*Graduated Course* </span> (Currently Enrolled)
+- Random Walks and Percolation <span style="color:red">*Graduated Course* </span> (Currently Auditing)
 
 
 
