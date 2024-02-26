@@ -12,5 +12,15 @@ Hi, This is Amirreza. I am a 3rd-year BSc student in Electrical Engineering at S
 I am also a part of [Resana](https://www.linkedin.com/in/resana-association-482575168/) association as an associate consultant. In Resana, we are holding various workshops and events to help students to find their interests and improve their skills.
 
 
+# Education
+1. Allameh Jafaru High School (NODET) - 2021
+2. Sharif University of Technology - 2026 (Expected)
 
+# Research Interests
+- Machine Learning
+- Reinforcement Learning
+- Stochastic Processes
+- Optimization
+- Graph Theory
+- Random Walks and Percolation
 
