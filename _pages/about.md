@@ -31,13 +31,13 @@ You can have a look at summary of my resume below or check my [CV](https://amirr
 - Random Walks and Percolation
 
 ## Selected Advanced Courses
-- Machine Learning
-- Deep Learning
-- Optimization
-- Stochastic Processes
-- Reinforcement Learning
-- Game Theory
-- Random Walks and Percolation
+- Machine Learning (19.5/20.0)
+- Deep Learning *Graduated Course* (17.2/20.0)
+- Game Theory (Currently Enrolled)
+- Optimization (Currently Enrolled)
+- Stochastic Processes (Self-Studied)
+- Reinforcement Learning *Graduated Course* (Currently Enrolled)
+- Random Walks and Percolation *Graduated Course* (Currently Auditing)
 
 
 
