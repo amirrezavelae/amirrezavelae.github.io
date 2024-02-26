@@ -32,6 +32,8 @@ You can have a look at summary of my resume below or check my [CV](https://amirr
 
 ## Selected Advanced Courses
 - Machine Learning (19.5/20.0)
+- Signal and System (19.2/20.0)
+- Mathematical Methods in Engineering (Linear Algebra) (19.8/20.0)
 - Deep Learning <span style="color:red">*Graduated Course* </span> (17.2/20.0)
 - Game Theory (Currently Enrolled)
 - Optimization (Currently Enrolled)
