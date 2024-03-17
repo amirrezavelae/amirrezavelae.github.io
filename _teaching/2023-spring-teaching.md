@@ -8,6 +8,8 @@ date: 2023-01-17
 location: "Tehran, Iran"
 ---
 
+
+
 # Engineering Mathematics
 
 I was Teaching Assistant for the course Engineering Mathematics, which is a fundamental course for all Electrical Engineering students. The course was taught by Dr.Poore. I was responsible for preparing and grading assignments, and helping students with their questions.
