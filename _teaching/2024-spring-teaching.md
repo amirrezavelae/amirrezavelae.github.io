@@ -4,7 +4,7 @@ collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2024-spring-teaching
 venue: "Sharif University of Technology, EE department"
-date: 2023-01-17
+date: 2023-09-10
 location: "Tehran, Iran"
 ---
 
