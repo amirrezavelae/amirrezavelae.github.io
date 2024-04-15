@@ -8,8 +8,11 @@ redirect_from:
 ---
 
 Hi, This is Amirreza. I am a 3rd-year BSc student in Electrical Engineering at Sharif University of Technology with a minor in Applied Mathematics. 
-I am interested in Machine Learning, Reinforcement Learning, and Robotics. Currently, I am working on a project on Diffusion Models, aiming to solve stochastic differential equations faster and more robustly in inference under the supervision of [Dr. Mohammadhossein Rohban](https://scholar.google.com/citations?user=pRyJ6FkAAAAJ&hl=en).
+I am interested in Machine Learning, Reinforcement Learning, and Robotics.
 
+<!---
+Currently, I am working on a project on Diffusion Models, aiming to solve stochastic differential equations faster and more robustly in inference under the supervision of [Dr. Mohammadhossein Rohban](https://scholar.google.com/citations?user=pRyJ6FkAAAAJ&hl=en).
+--->
 I am also a part of [Resana](https://www.linkedin.com/in/resana-association-482575168/) association as an associate consultant. In Resana, we are holding various workshops and events to help students to find their interests and improve their skills.
 
 You can find my contact information and social media links left side of this page. Feel free to contact me if you have any questions or suggestions.
