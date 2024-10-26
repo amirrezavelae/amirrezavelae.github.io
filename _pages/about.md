@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi, This is Amirreza. I am a 3rd-year BSc student in Electrical Engineering at Sharif University of Technology with a minor in Applied Mathematics. 
+Hi, This is Amirreza. I am a 4th-year BSc student in Electrical Engineering at Sharif University of Technology with a minor in Applied Mathematics. 
 I am interested in Optimizatin and Machine Learning specifically Reinforcement Learning.
 
 You can find my contact information and social media links left side of this page. Feel free to contact me if you have any questions or suggestions.
