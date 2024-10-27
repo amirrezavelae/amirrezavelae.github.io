@@ -1,24 +1,61 @@
 ---
-title: "Fall 2024"
+title: "2024 Fall"
 collection: teaching
-type: "Undergraduate course"
+type: "Undergraduate Course"
 permalink: /teaching/2024-fall-teaching
-venue: "Sharif University of Technology, EE department"
+venue: "Sharif University of Technology, EE Department"
 date: 2024-01-17
 location: "Tehran, Iran"
 ---
 
-$~$
-$~$
+# Teaching Experience
 
-# Signals and Systems
+---
 
-I was Teaching Assistant for the course Signals and Systems, which is a fundamental course for all Electrical Engineering students. The course was taught by [Dr. Hamid Behroozi](https://scholar.google.com/citations?user=LKO-LisAAAAJ&hl=en). I was responsible for preparing and grading assignments -head of the team-, and holding weekly problem-solving sessions.
+## 👩‍🏫 Head Teaching Assistant for Assignments
 
-# Introduction to Machine Learning
+### **Signals and Systems**
 
-I was Teaching Assistant for the course Introduction to Machine Learning, which is a optional course for biomedical, digital, communication, and control students. The course was taught by [Dr. Mohammad B. SHAMSOLLAHI](https://scholar.google.com/citations?user=OgiLEksAAAAJ&hl=en). I was responsible for preparing and grading assignments, and helping students with their questions.
+- **Instructor:** [Dr. Hamid Behroozi](https://scholar.google.com/citations?user=LKO-LisAAAAJ&hl=en)
 
-# Mathematical Methods in Engineering (Linear Algebra)
+**Course Overview:**
+A core course for all Electrical Engineering students, focusing on the analysis and processing of signals and systems.
 
-I was Teaching Assistant for the course Mathematical Methods in Engineering, which is a fundamental course for all Electrical Engineering students. The course was taught by [Dr. Reza Kazemi](https://scholar.google.com/citations?user=wKorgK4AAAAJ&hl=en) and [Dr. Rouhollah Amiri](https://scholar.google.com/citations?user=sOUZ3cUAAAAJ&hl=en). I was responsible for preparing and grading assignments for both professors, and helping students with their questions.
+**Responsibilities:**
+
+- Leading the team in preparing and grading assignments.
+- Conducting weekly problem-solving sessions to enhance student understanding.
+
+---
+
+## 👩‍🏫 Teaching Assistant
+
+### **Introduction to Machine Learning**
+
+- **Instructor:** [Dr. Mohammad B. Shamsollahi](https://scholar.google.com/citations?user=OgiLEksAAAAJ&hl=en)
+
+**Course Description:**
+An elective course tailored for students specializing in biomedical, digital, communication, and control fields, introducing the fundamentals of machine learning.
+
+**Responsibilities:**
+
+- Preparing and grading assignments.
+- Assisting students with questions and providing academic support.
+
+---
+
+### **Mathematical Methods in Engineering (Linear Algebra)**
+
+- **Instructors:**
+  - [Dr. Reza Kazemi](https://scholar.google.com/citations?user=wKorgK4AAAAJ&hl=en)
+  - [Dr. Rouhollah Amiri](https://scholar.google.com/citations?user=sOUZ3cUAAAAJ&hl=en)
+
+**Course Overview:**
+A required course for all Electrical Engineering students, focusing on linear algebra and its applications in engineering problems.
+
+**Responsibilities:**
+
+- Preparing and grading assignments for both professors.
+- Providing assistance to students with questions and coursework.
+
+---

@@ -1,28 +1,73 @@
 ---
-title: "Spring 2024"
+title: "2024 Spring"
 collection: teaching
-type: "Undergraduate course"
+type: "Undergraduate Course"
 permalink: /teaching/2024-spring-teaching
-venue: "Sharif University of Technology, EE department"
+venue: "Sharif University of Technology, EE Department"
 date: 2023-09-10
 location: "Tehran, Iran"
 ---
 
-$~$
-$~$
+# Teaching Experience
 
-# Signals and Systems
+---
 
-I am Teaching Assistant for the course Signals and Systems, which is a fundamental course for all Electrical Engineering students. The course is taught by [Dr. Babak Hossein Khalaj](https://scholar.google.com/citations?user=8HsoXAUAAAAJ&hl=en). I am responsible for preparing a final project for the students.
+## 👩‍🏫 Teaching Assistant
 
-# Probability and Statistics
+### **Signals and Systems**
 
-I am Teaching Assistant for the course Probability and Statistics, which is a fundamental course for all Electrical Engineering students. The course is taught by [Mohammad Mahdi Mojahedian](https://scholar.google.com/citations?user=SqASevMAAAAJ&hl=en). I am responsible for preparing and grading assignments and quizzes, and helping students with their questions.
+- **Instructor:** [Dr. Babak Hossein Khalaj](https://scholar.google.com/citations?user=8HsoXAUAAAAJ&hl=en)
 
-# Mathematical Methods in Engineering (Linear Algebra)
+**Course Overview:**
+A core requirement for all Electrical Engineering students, this course delves into the analysis and processing of signals and systems.
 
-I am Teaching Assistant for the course Mathematical Methods in Engineering, which is a fundamental course for all Electrical Engineering students. The course am taught by [Dr. Rouhollah Amiri](https://scholar.google.com/citations?user=sOUZ3cUAAAAJ&hl=en). I am responsible for preparing and grading assignments, and helping students with their questions.
+**Responsibilities:**
 
-# Introduction to Machine Learning
+- Designing a comprehensive final project focused on filtering noisy signals using various filters.
+- Comparing the effectiveness of different filtering techniques.
 
-I am Teaching Assistant for the course Introduction to Machine Learning, which is a optional course for biomedical, digital, communication, and control students. The course am taught by [Dr. Mohammad B. SHAMSOLLAHI](https://scholar.google.com/citations?user=OgiLEksAAAAJ&hl=en) and [Dr. Rouhollah Amiri](https://scholar.google.com/citations?user=sOUZ3cUAAAAJ&hl=en). I am responsible for preparing and grading assignments, and helping students with their questions.
+---
+
+### **Probability and Statistics**
+
+- **Instructor:** [Mohammad Mahdi Mojahedian](https://scholar.google.com/citations?user=SqASevMAAAAJ&hl=en)
+
+**Course Description:**
+A foundational course essential for Electrical Engineering students, covering essential concepts in probability and statistics.
+
+**Responsibilities:**
+
+- Preparing and grading assignments and quizzes.
+- Assisting students with questions and providing academic support.
+
+---
+
+### **Mathematical Methods in Engineering (Linear Algebra)**
+
+- **Instructor:** [Dr. Rouhollah Amiri](https://scholar.google.com/citations?user=sOUZ3cUAAAAJ&hl=en)
+
+**Course Overview:**
+A critical course for Electrical Engineering students, focusing on linear algebra and its applications in engineering problems.
+
+**Responsibilities:**
+
+- Preparing and grading assignments.
+- Offering support to students and addressing their queries.
+
+---
+
+### **Introduction to Machine Learning**
+
+- **Instructors:**
+  - [Dr. Mohammad B. Shamsollahi](https://scholar.google.com/citations?user=OgiLEksAAAAJ&hl=en)
+  - [Dr. Rouhollah Amiri](https://scholar.google.com/citations?user=sOUZ3cUAAAAJ&hl=en)
+
+**Course Description:**
+An elective course tailored for students in biomedical, digital, communication, and control fields, introducing the fundamentals of machine learning.
+
+**Responsibilities:**
+
+- Preparing and grading assignments across two teaching groups.
+- Supporting instructors in course delivery and student engagement.
+
+---

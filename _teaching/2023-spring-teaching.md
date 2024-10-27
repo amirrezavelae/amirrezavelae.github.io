@@ -1,5 +1,5 @@
 ---
-title: "Spring 2023"
+title: "2023 Spring"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2023-spring-teaching
@@ -11,10 +11,10 @@ location: "Tehran, Iran"
 $~$
 $~$
 
-# Engineering Mathematics
+## Engineering Mathematics
 
 I was Teaching Assistant for the course Engineering Mathematics, which is a fundamental course for all Electrical Engineering students. The course was taught by Dr.Poore. I was responsible for preparing and grading assignments, and helping students with their questions.
 
-# Probability and Statistics
+## Probability and Statistics
 
 I was Teaching Assistant for the course Probability and Statistics, which is a fundamental course for all Electrical Engineering students. The course was taught by [Dr. Seyed Mohammad Karbasi](https://scholar.google.com/citations?user=JQs9TcgAAAAJ&hl=en). I was responsible for preparing and grading assignments, and helping students with their questions.
