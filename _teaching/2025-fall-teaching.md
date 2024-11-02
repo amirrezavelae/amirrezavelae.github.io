@@ -1,7 +1,7 @@
 ---
 title: "2025 Fall"
 collection: teaching
-type: "Undergraduate Course"
+type: "Graduate & Undergraduate Course"
 permalink: /teaching/2025-spring-teaching
 venue: "Sharif University of Technology, EE Department"
 date: 2025-09-10
