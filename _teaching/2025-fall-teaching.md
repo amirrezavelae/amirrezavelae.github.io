@@ -4,7 +4,7 @@ collection: teaching
 type: "Undergraduate Course"
 permalink: /teaching/2025-spring-teaching
 venue: "Sharif University of Technology, EE Department"
-date: 2023-09-10
+date: 2025-09-10
 location: "Tehran, Iran"
 ---
 
@@ -60,6 +60,8 @@ A collaborative course for B.Sc. and M.Sc. students in the CE department, coveri
 
 - **Format:** Hybrid (In-person for Sharif students, Online for others)
 - **Enrollment:** 35,000 students
+
+Professor Zarchi made his course available online for all students. Over 40,000 students from around the world registered for this class ([link to news](https://x.com/SharifiZarchi/status/1839930741733380486?t=eef9LsxbqmK7mLOqLU9ysg&s=19)), and all the course videos are accessible to the public on the [course website](https://www.sharifml.ir/). It was an honor for me to participate in this charitable effort for the public.
 
 ---
 
