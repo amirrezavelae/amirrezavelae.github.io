@@ -59,7 +59,7 @@ A collaborative course for B.Sc. and M.Sc. students in the CE department, coveri
 **Course Highlights:**
 
 - **Format:** Hybrid (In-person for Sharif students, Online for others)
-- **Enrollment:** 35,000 students
+- **Enrollment:** 40,000 students
 
 Professor Zarchi made his course available online for all students. Over 40,000 students from around the world registered for this class ([link to news](https://x.com/SharifiZarchi/status/1839930741733380486?t=eef9LsxbqmK7mLOqLU9ysg&s=19)), and all the course videos are accessible to the public on the [course website](https://www.sharifml.ir/). It was an honor for me to participate in this charitable effort for the public.
 
