@@ -623,8 +623,8 @@ redirect_from:
         <i class="fas fa-chess-knight" style="color:#2c3e50;"></i>
         <h3>♟️ Chess</h3>
         <p>
-          I enjoy playing chess. If you'd like to play with a beginner, feel free to connect:
-          <a href="https://link.chess.com/friend/SiXm6d" target="_blank">Chess.com</a>
+        I like to play chess, so if you want to play with a beginner, don't hesitate to contact me:
+        <a href="https://link.chess.com/friend/SiXm6d" target="_blank" style="color: blue; text-decoration: underline;">Chess.com</a>.
         </p>
       </div>
       
@@ -633,9 +633,9 @@ redirect_from:
         <i class="fab fa-spotify" style="color:#1db954;"></i>
         <h3>🎵 Music</h3>
         <p>
-          I'm exploring Spotify. Share your favorite playlists or 
-          <a href="https://open.spotify.com/user/31ydjo3ivzw7kyuih26z6kbyy6n4" target="_blank">follow me</a>.
-          I especially love non-English music!
+        I'm new to Spotify, but if you have a strong taste in music, send me your playlist or
+        <a href="https://open.spotify.com/user/31ydjo3ivzw7kyuih26z6kbyy6n4" target="_blank" style="color: blue; text-decoration: underline;">follow me</a>.
+        I'll listen and tell you what I think (Please do it if you have non-English playlists; I love them).
         </p>
       </div>
       
@@ -644,8 +644,9 @@ redirect_from:
         <i class="fas fa-film" style="color:#e74c3c;"></i>
         <h3>🎬 Letterboxd</h3>
         <p>
-          I love tracking and reviewing movies. Check out my profile or 
-          <a href="https://letterboxd.com/amirrezza/" target="_blank">follow me</a> for recommendations.
+        I enjoy tracking and reviewing movies. Check out my profile or
+        <a href="https://letterboxd.com/amirrezza/" target="_blank" style="color: blue; text-decoration: underline;">follow me</a>
+        and contact me if you have a good movie recommendation.
         </p>
       </div>
       
@@ -654,8 +655,9 @@ redirect_from:
         <i class="fas fa-language" style="color:#27ae60;"></i>
         <h3>🌐 Duolingo</h3>
         <p>
-          I'm learning Turkish and Russian as my fourth and fifth languages. Connect with me on 
-          <a href="https://www.duolingo.com/profile/amirVreza" target="_blank">Duolingo</a>!
+        I'm learning Turkish and Russian as my fourth and fifth languages as a hobby. If you have Duo,
+        <a href="https://www.duolingo.com/profile/amirVreza" target="_blank" style="color: blue; text-decoration: underline;">contact me</a>
+        to get nudged sometimes!
         </p>
       </div>
       
