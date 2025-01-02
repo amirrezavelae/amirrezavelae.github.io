@@ -173,7 +173,7 @@ redirect_from:
 
     <!-- Chess -->
     <div style="text-align: center; flex: 1 1 150px;">
-      <img src="https://amirrezavelae.github.io/images/Chess.svg" alt="Chess Icon" style="width:40px; height:30px;">
+      <img src="https://amirrezavelae.github.io/images/Chess.svg" alt="Chess Icon" style="width:30px; height:30px;">
       <h3 style="font-size:1.2em;">♟️ Chess</h3>
       <p style="font-size:0.9em;">
         I like to play chess, so if you want to play with a beginner, don't hesitate to contact me:
@@ -183,7 +183,7 @@ redirect_from:
 
     <!-- Music -->
     <div style="text-align: center; flex: 1 1 150px;">
-      <img src="https://cdn-icons-png.flaticon.com/512/174/174872.png" alt="Spotify Icon" style="width:40px; height:30px;">
+      <img src="https://cdn-icons-png.flaticon.com/512/174/174872.png" alt="Spotify Icon" style="width:30px; height:30px;">
       <h3 style="font-size:1.2em;">🎵 Music</h3>
       <p style="font-size:0.9em;">
         I'm new to Spotify, but if you have a strong taste in music, send me your playlist or
@@ -194,7 +194,7 @@ redirect_from:
 
     <!-- Letterboxd -->
     <div style="text-align: center; flex: 1 1 150px;">
-      <img src="https://amirrezavelae.github.io/images/Letterboxd.svg" alt="Letterboxd Icon" style="width:40px; height:30px;">
+      <img src="https://amirrezavelae.github.io/images/Letterboxd.svg" alt="Letterboxd Icon" style="width:30px; height:30px;">
       <h3 style="font-size:1.2em;">🎬 Letterboxd</h3>
       <p style="font-size:0.9em;">
         I enjoy tracking and reviewing movies. Check out my profile or
@@ -205,7 +205,7 @@ redirect_from:
 
     <!-- Duolingo -->
     <div style="text-align: center; flex: 1 1 150px;">
-      <img src="https://amirrezavelae.github.io/images/Duolingo.svg" alt="Duolingo Icon" style="width:40px; height:30px;">
+      <img src="https://amirrezavelae.github.io/images/Duolingo.svg" alt="Duolingo Icon" style="width:30px; height:30px;">
       <h3 style="font-size:1.2em;">🌐 Duolingo</h3>
       <p style="font-size:0.9em;">
         I'm learning Turkish and Russian as my fourth and fifth languages as a hobby. If you have Duo, 
