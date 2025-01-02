@@ -22,111 +22,238 @@ redirect_from:
   
   <!-- CSS Styles -->
   <style>
+    /* CSS Variables for Theme Management */
+    :root {
+      --primary-color: #3498db;
+      --secondary-color: #2c3e50;
+      --accent-color: #e74c3c;
+      --light-bg: #f9f9f9;
+      --dark-bg: #2c3e50;
+      --text-color: #333;
+      --light-text: #ecf0f1;
+      --font-family-body: 'Roboto', sans-serif;
+      --font-family-heading: 'Montserrat', sans-serif;
+      --transition-speed: 0.3s;
+      --max-width: 1200px;
+    }
+    
     /* Global Styles */
-    body {
+    * {
+      box-sizing: border-box;
       margin: 0;
-      font-family: 'Roboto', sans-serif;
+      padding: 0;
+    }
+    
+    body {
+      font-family: var(--font-family-body);
       line-height: 1.6;
-      color: #333;
-      background-color: #f9f9f9;
+      color: var(--text-color);
+      background-color: var(--light-bg);
+      transition: background-color var(--transition-speed), color var(--transition-speed);
     }
     
     a {
-      color: #3498db;
+      color: var(--primary-color);
       text-decoration: none;
-      transition: color 0.3s ease;
+      transition: color var(--transition-speed);
     }
     
     a:hover {
-      color: #1d6fa5;
+      color: darken(var(--primary-color), 10%);
     }
     
     h1, h2, h3 {
-      font-family: 'Montserrat', sans-serif;
-      color: #2c3e50;
+      font-family: var(--font-family-heading);
+      color: var(--secondary-color);
+    }
+    
+    /* Dark Mode Styles */
+    body.dark-mode {
+      background-color: #121212;
+      color: #e0e0e0;
+    }
+    
+    body.dark-mode a {
+      color: #90caf9;
+    }
+    
+    body.dark-mode nav {
+      background-color: #1f1f1f;
+    }
+    
+    body.dark-mode header {
+      background: url('https://your-image-url.com/header-bg-dark.jpg') no-repeat center center/cover;
+    }
+    
+    body.dark-mode .card {
+      background-color: #1f1f1f;
+      box-shadow: 0 4px 8px rgba(255,255,255,0.1);
     }
     
     /* Navigation Bar */
     nav {
-      background-color: #2c3e50;
+      background-color: var(--secondary-color);
       box-shadow: 0 2px 4px rgba(0,0,0,0.1);
       position: sticky;
       top: 0;
       z-index: 1000;
+      transition: background-color var(--transition-speed);
     }
     
     .nav-container {
-      max-width: 1200px;
+      max-width: var(--max-width);
       margin: 0 auto;
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
       align-items: center;
       padding: 0 20px;
+      height: 60px;
+    }
+    
+    .logo a {
+      color: var(--light-text);
+      font-size: 1.8em;
+      font-weight: bold;
+      text-decoration: none;
+      transition: color var(--transition-speed);
     }
     
     .nav-links {
       display: flex;
-      flex-wrap: wrap;
+      align-items: center;
     }
     
     .nav-links a {
-      color: #ecf0f1;
-      padding: 14px 20px;
+      color: var(--light-text);
+      padding: 14px 16px;
       text-align: center;
-      transition: background 0.3s ease;
+      transition: background-color var(--transition-speed), color var(--transition-speed);
+      border-radius: 4px;
     }
     
     .nav-links a:hover {
-      background-color: #34495e;
+      background-color: var(--primary-color);
+      color: #fff;
+    }
+    
+    /* Dark Mode Toggle */
+    .dark-mode-toggle {
+      margin-left: 20px;
+      cursor: pointer;
+      font-size: 1.2em;
+      color: var(--light-text);
+      transition: color var(--transition-speed);
+    }
+    
+    .dark-mode-toggle:hover {
+      color: var(--accent-color);
     }
     
     /* Header Section */
-    .header {
+    header.header {
       background: url('https://your-image-url.com/header-bg.jpg') no-repeat center center/cover;
       color: #fff;
       text-align: center;
-      padding: 100px 20px;
+      padding: 120px 20px;
+      position: relative;
+      transition: background-image var(--transition-speed);
     }
     
-    .header h1 {
-      font-size: 3em;
-      margin-bottom: 10px;
+    header.header.dark-mode {
+      background: url('https://your-image-url.com/header-bg-dark.jpg') no-repeat center center/cover;
+    }
+    
+    header.header h1 {
+      font-size: 3.5em;
+      margin-bottom: 20px;
+      text-shadow: 3px 3px 6px rgba(0,0,0,0.5);
+      animation: fadeInDown 1s ease-out;
+    }
+    
+    header.header p {
+      font-size: 1.5em;
       text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+      animation: fadeInUp 1s ease-out;
     }
     
-    .header p {
-      font-size: 1.2em;
-      text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+    /* Animations */
+    @keyframes fadeInDown {
+      from {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
     }
     
     /* Section Styles */
     section {
-      max-width: 1200px;
-      margin: 40px auto;
+      max-width: var(--max-width);
+      margin: 60px auto;
       padding: 0 20px;
     }
     
     section h2 {
-      font-size: 2em;
-      margin-bottom: 20px;
-      border-bottom: 2px solid #3498db;
+      font-size: 2.5em;
+      margin-bottom: 30px;
+      position: relative;
       display: inline-block;
-      padding-bottom: 5px;
+      padding-bottom: 10px;
+    }
+    
+    section h2::after {
+      content: '';
+      width: 50px;
+      height: 4px;
+      background-color: var(--primary-color);
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      border-radius: 2px;
+    }
+    
+    /* Cards for Lists */
+    .card {
+      background: #fff;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      transition: transform var(--transition-speed), box-shadow var(--transition-speed);
+    }
+    
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 12px rgba(0,0,0,0.2);
+    }
+    
+    body.dark-mode .card {
+      background-color: #1f1f1f;
+      box-shadow: 0 4px 6px rgba(255,255,255,0.1);
     }
     
     /* Education & Research */
     ul {
       list-style-type: none;
-      padding: 0;
     }
     
     ul li {
-      background: #fff;
-      margin-bottom: 10px;
-      padding: 15px;
-      border-radius: 5px;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+      margin-bottom: 15px;
+      font-size: 1.1em;
     }
     
     /* Courses Table */
@@ -141,112 +268,143 @@ redirect_from:
     }
     
     th, td {
-      padding: 12px;
+      padding: 14px;
       text-align: left;
+      transition: background-color var(--transition-speed);
     }
     
     th {
-      background-color: #3498db;
+      background-color: var(--primary-color);
       color: #fff;
+      font-size: 1.1em;
     }
     
     tr:nth-child(even) {
       background-color: #f2f2f2;
     }
     
-    /* Projects */
-    .projects ul li {
-      background: #fff;
-      margin-bottom: 10px;
-      padding: 15px;
-      border-radius: 5px;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    tr:hover {
+      background-color: #ddd;
     }
     
-    /* Hobbies */
+    /* Projects */
+    .projects ul li {
+      font-size: 1.1em;
+      margin-bottom: 15px;
+    }
+    
+    /* Hobbies Section */
     .hobbies-container {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 20px;
-      justify-content: center;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      margin-top: 30px;
     }
     
     .hobby {
       background: #fff;
-      padding: 20px;
+      padding: 25px;
       border-radius: 10px;
-      width: 250px;
       text-align: center;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform var(--transition-speed), box-shadow var(--transition-speed);
     }
     
     .hobby:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      transform: translateY(-10px);
+      box-shadow: 0 12px 20px rgba(0,0,0,0.2);
     }
     
-    .hobby img {
-      width: 50px;
-      height: 50px;
+    .hobby i {
+      font-size: 3em;
       margin-bottom: 15px;
+      transition: color var(--transition-speed);
+    }
+    
+    .hobby:hover i {
+      color: var(--primary-color);
     }
     
     .hobby h3 {
-      margin-bottom: 10px;
       font-size: 1.5em;
+      margin-bottom: 10px;
     }
     
     .hobby p {
-      font-size: 0.95em;
+      font-size: 1em;
       color: #555;
+    }
+    
+    body.dark-mode .hobby {
+      background-color: #1f1f1f;
+      box-shadow: 0 4px 8px rgba(255,255,255,0.05);
+    }
+    
+    body.dark-mode .hobby p {
+      color: #ccc;
     }
     
     /* Footer */
     footer {
-      background-color: #2c3e50;
-      color: #ecf0f1;
+      background-color: var(--secondary-color);
+      color: var(--light-text);
       text-align: center;
-      padding: 20px;
+      padding: 30px 20px;
+      transition: background-color var(--transition-speed), color var(--transition-speed);
     }
     
     footer a {
-      color: #ecf0f1;
-      margin: 0 10px;
+      color: var(--light-text);
+      margin: 0 15px;
       font-size: 1.2em;
+      transition: color var(--transition-speed);
     }
     
     footer a:hover {
-      color: #3498db;
+      color: var(--primary-color);
+    }
+    
+    footer p {
+      margin-top: 15px;
+      font-size: 0.95em;
     }
     
     /* Responsive Design */
     @media (max-width: 768px) {
+      .nav-container {
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+      }
+      
       .nav-links {
         flex-direction: column;
         width: 100%;
       }
       
       .nav-links a {
-        text-align: left;
+        width: 100%;
         padding: 10px 20px;
       }
       
-      .header {
-        padding: 60px 20px;
+      .dark-mode-toggle {
+        margin: 10px 0;
       }
       
-      .header h1 {
+      header.header {
+        padding: 80px 20px;
+      }
+      
+      header.header h1 {
         font-size: 2.5em;
       }
       
-      .hobbies-container {
-        flex-direction: column;
-        align-items: center;
+      header.header p {
+        font-size: 1.2em;
       }
       
-      .hobby {
-        width: 80%;
+      .hobbies-container {
+        grid-template-columns: 1fr;
       }
     }
   </style>
@@ -257,7 +415,7 @@ redirect_from:
   <nav>
     <div class="nav-container">
       <div class="logo">
-        <a href="/" style="color: #ecf0f1; font-size: 1.5em; font-weight: bold; text-decoration: none;">Amirrea</a>
+        <a href="/">Amirrea</a>
       </div>
       <div class="nav-links">
         <a href="#about">About</a>
@@ -266,6 +424,9 @@ redirect_from:
         <a href="#courses">Courses</a>
         <a href="#projects">Projects</a>
         <a href="#hobbies">Hobbies</a>
+        <span class="dark-mode-toggle" id="dark-mode-toggle">
+          <i class="fas fa-moon"></i>
+        </span>
       </div>
     </div>
   </nav>
@@ -279,140 +440,150 @@ redirect_from:
   <!-- About Section -->
   <section id="about">
     <h2>About Me</h2>
-    <p>
-      Hi, I'm Amirreza. I'm a 4th-year BSc student in Electrical Engineering at Sharif University of Technology, minoring in Applied Mathematics. I have a keen interest in Optimization and Machine Learning, specifically Reinforcement Learning.
-    </p>
-    <p>
-      Feel free to reach out via the contact information and social media links in the footer. If you have any questions or suggestions, don't hesitate to contact me.
-    </p>
-    <p>
-      You can view a summary of my resume below or check my <a href="https://amirrezavelae.github.io/cv/" target="_blank">CV</a> for more detailed information about my background and experiences.
-    </p>
+    <div class="card">
+      <p>
+        Hi, I'm Amirreza. I'm a 4th-year BSc student in Electrical Engineering at Sharif University of Technology, minoring in Applied Mathematics. I have a keen interest in Optimization and Machine Learning, specifically Reinforcement Learning.
+      </p>
+      <p>
+        Feel free to reach out via the contact information and social media links in the footer. If you have any questions or suggestions, don't hesitate to contact me.
+      </p>
+      <p>
+        You can view a summary of my resume below or check my <a href="https://amirrezavelae.github.io/cv/" target="_blank">CV</a> for more detailed information about my background and experiences.
+      </p>
+    </div>
   </section>
   
   <!-- Education Section -->
   <section id="education">
     <h2>🎓 Education</h2>
-    <ul>
-      <li><strong>Allameh Jafari High School (NODET)</strong> - Graduated in 2021</li>
-      <li><strong>Sharif University of Technology</strong> - Expected graduation in 2026</li>
-    </ul>
+    <div class="card">
+      <ul>
+        <li><strong>Allameh Jafari High School (NODET)</strong> - Graduated in 2021</li>
+        <li><strong>Sharif University of Technology</strong> - Expected graduation in 2026</li>
+      </ul>
+    </div>
   </section>
   
   <!-- Research Interests Section -->
   <section id="research">
     <h2>🔍 Research Interests</h2>
-    <ul>
-      <li>Machine Learning</li>
-      <li>Reinforcement Learning</li>
-      <li>Optimization</li>
-      <li>Game Theory</li>
-      <li>High Dimensional Statistics and Probability</li>
-      <li>Random Walks and Percolation</li>
-    </ul>
+    <div class="card">
+      <ul>
+        <li>Machine Learning</li>
+        <li>Reinforcement Learning</li>
+        <li>Optimization</li>
+        <li>Game Theory</li>
+        <li>High Dimensional Statistics and Probability</li>
+        <li>Random Walks and Percolation</li>
+      </ul>
+    </div>
   </section>
   
   <!-- Courses Section -->
   <section id="courses">
     <h2>📚 Selected Advanced Courses</h2>
-    <table>
-      <thead>
-        <tr>
-          <th>Course</th>
-          <th>Grade</th>
-          <th>Status</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Machine Learning</td>
-          <td>19.5/20.0</td>
-          <td>Completed</td>
-        </tr>
-        <tr>
-          <td>Signal and System</td>
-          <td>19.2/20.0</td>
-          <td>Completed</td>
-        </tr>
-        <tr>
-          <td>Mathematical Methods in Engineering (Linear Algebra)</td>
-          <td>19.8/20.0</td>
-          <td>Completed</td>
-        </tr>
-        <tr>
-          <td>Game Theory</td>
-          <td>17.8/20</td>
-          <td>Completed</td>
-        </tr>
-        <tr>
-          <td>Optimization</td>
-          <td>17/20</td>
-          <td>Completed</td>
-        </tr>
-        <tr>
-          <td>Reinforcement Learning <span style="color:red;">*</span></td>
-          <td>20/20</td>
-          <td>Graduated Course</td>
-        </tr>
-        <tr>
-          <td>Deep Learning <span style="color:red;">*</span></td>
-          <td>17.2/20.0</td>
-          <td>Graduated Course</td>
-        </tr>
-        <tr>
-          <td>Random Walks and Percolation <span style="color:red;">*</span></td>
-          <td>—</td>
-          <td>Audited</td>
-        </tr>
-        <tr>
-          <td>Stochastic Processes</td>
-          <td>—</td>
-          <td>Self-Studied</td>
-        </tr>
-        <tr>
-          <td>Convex Optimization II <span style="color:red;">*</span></td>
-          <td>—</td>
-          <td>Currently Enrolled</td>
-        </tr>
-        <tr>
-          <td>Optimal Control <span style="color:red;">*</span></td>
-          <td>—</td>
-          <td>Currently Enrolled</td>
-        </tr>
-        <tr>
-          <td>High Dimensional Probability <span style="color:red;">*</span></td>
-          <td>—</td>
-          <td>Currently Enrolled</td>
-        </tr>
-        <tr>
-          <td>Non-Convex Optimization <span style="color:red;">*</span></td>
-          <td>—</td>
-          <td>Currently Enrolled</td>
-        </tr>
-        <tr>
-          <td>Online Learning <span style="color:red;">*</span></td>
-          <td>—</td>
-          <td>Currently Auditing</td>
-        </tr>
-      </tbody>
-    </table>
-    <p><span style="color:red;">*</span> Indicates a Graduated Course</p>
+    <div class="card">
+      <table>
+        <thead>
+          <tr>
+            <th>Course</th>
+            <th>Grade</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Machine Learning</td>
+            <td>19.5/20.0</td>
+            <td>Completed</td>
+          </tr>
+          <tr>
+            <td>Signal and System</td>
+            <td>19.2/20.0</td>
+            <td>Completed</td>
+          </tr>
+          <tr>
+            <td>Mathematical Methods in Engineering (Linear Algebra)</td>
+            <td>19.8/20.0</td>
+            <td>Completed</td>
+          </tr>
+          <tr>
+            <td>Game Theory</td>
+            <td>17.8/20</td>
+            <td>Completed</td>
+          </tr>
+          <tr>
+            <td>Optimization</td>
+            <td>17/20</td>
+            <td>Completed</td>
+          </tr>
+          <tr>
+            <td>Reinforcement Learning <span style="color:red;">*</span></td>
+            <td>20/20</td>
+            <td>Graduated Course</td>
+          </tr>
+          <tr>
+            <td>Deep Learning <span style="color:red;">*</span></td>
+            <td>17.2/20.0</td>
+            <td>Graduated Course</td>
+          </tr>
+          <tr>
+            <td>Random Walks and Percolation <span style="color:red;">*</span></td>
+            <td>—</td>
+            <td>Audited</td>
+          </tr>
+          <tr>
+            <td>Stochastic Processes</td>
+            <td>—</td>
+            <td>Self-Studied</td>
+          </tr>
+          <tr>
+            <td>Convex Optimization II <span style="color:red;">*</span></td>
+            <td>—</td>
+            <td>Currently Enrolled</td>
+          </tr>
+          <tr>
+            <td>Optimal Control <span style="color:red;">*</span></td>
+            <td>—</td>
+            <td>Currently Enrolled</td>
+          </tr>
+          <tr>
+            <td>High Dimensional Probability <span style="color:red;">*</span></td>
+            <td>—</td>
+            <td>Currently Enrolled</td>
+          </tr>
+          <tr>
+            <td>Non-Convex Optimization <span style="color:red;">*</span></td>
+            <td>—</td>
+            <td>Currently Enrolled</td>
+          </tr>
+          <tr>
+            <td>Online Learning <span style="color:red;">*</span></td>
+            <td>—</td>
+            <td>Currently Auditing</td>
+          </tr>
+        </tbody>
+      </table>
+      <p><span style="color:red;">*</span> Indicates a Graduated Course</p>
+    </div>
   </section>
   
   <!-- Projects Section -->
   <section id="projects">
     <h2>💡 Selected Projects</h2>
-    <ul>
-      <li>
-        <strong>Policy Planning in Large Language Models</strong> (Ongoing) - 
-        <a href="https://scholar.google.com/citations?user=yiZk6coAAAAJ&hl=en" target="_blank">Advisor: Prof. Mohammad Aliannejadi</a>
-      </li>
-      <li>
-        <strong>L2D in Bayesian Neural Networks</strong> - 
-        <a href="https://charusaie.github.io/" target="_blank">Advisor: Amin Charusaie</a> & 
-        <a href="https://www.samirasamadi.com/" target="_blank">Prof. Samira Samadi</a>
-      </li>
-    </ul>
+    <div class="card">
+      <ul>
+        <li>
+          <strong>Policy Planning in Large Language Models</strong> (Ongoing) - 
+          <a href="https://scholar.google.com/citations?user=yiZk6coAAAAJ&hl=en" target="_blank">Advisor: Prof. Mohammad Aliannejadi</a>
+        </li>
+        <li>
+          <strong>L2D in Bayesian Neural Networks</strong> - 
+          <a href="https://charusaie.github.io/" target="_blank">Advisor: Amin Charusaie</a> & 
+          <a href="https://www.samirasamadi.com/" target="_blank">Prof. Samira Samadi</a>
+        </li>
+      </ul>
+    </div>
   </section>
   
   <!-- Hobbies Section -->
@@ -421,8 +592,8 @@ redirect_from:
     <div class="hobbies-container">
       
       <!-- Chess -->
-      <div class="hobby">
-        <i class="fas fa-chess-knight fa-3x" style="color:#2c3e50;"></i>
+      <div class="hobby card">
+        <i class="fas fa-chess-knight" style="color:#2c3e50;"></i>
         <h3>♟️ Chess</h3>
         <p>
           I enjoy playing chess. If you'd like to play with a beginner, feel free to connect:
@@ -431,8 +602,8 @@ redirect_from:
       </div>
       
       <!-- Music -->
-      <div class="hobby">
-        <i class="fab fa-spotify fa-3x" style="color:#1db954;"></i>
+      <div class="hobby card">
+        <i class="fab fa-spotify" style="color:#1db954;"></i>
         <h3>🎵 Music</h3>
         <p>
           I'm exploring Spotify. Share your favorite playlists or 
@@ -442,8 +613,8 @@ redirect_from:
       </div>
       
       <!-- Letterboxd -->
-      <div class="hobby">
-        <i class="fas fa-film fa-3x" style="color:#e74c3c;"></i>
+      <div class="hobby card">
+        <i class="fas fa-film" style="color:#e74c3c;"></i>
         <h3>🎬 Letterboxd</h3>
         <p>
           I love tracking and reviewing movies. Check out my profile or 
@@ -452,8 +623,8 @@ redirect_from:
       </div>
       
       <!-- Duolingo -->
-      <div class="hobby">
-        <i class="fas fa-language fa-3x" style="color:#27ae60;"></i>
+      <div class="hobby card">
+        <i class="fas fa-language" style="color:#27ae60;"></i>
         <h3>🌐 Duolingo</h3>
         <p>
           I'm learning Turkish and Russian as my fourth and fifth languages. Connect with me on 
@@ -473,6 +644,21 @@ redirect_from:
     </p>
     <p>&copy; 2025 Amirrea. All rights reserved.</p>
   </footer>
+  
+  <!-- JavaScript for Dark Mode Toggle -->
+  <script>
+    const toggle = document.getElementById('dark-mode-toggle');
+    const body = document.body;
+    
+    toggle.addEventListener('click', () => {
+      body.classList.toggle('dark-mode');
+      if(body.classList.contains('dark-mode')) {
+        toggle.innerHTML = '<i class="fas fa-sun"></i>';
+      } else {
+        toggle.innerHTML = '<i class="fas fa-moon"></i>';
+      }
+    });
+  </script>
   
 </body>
 </html>
