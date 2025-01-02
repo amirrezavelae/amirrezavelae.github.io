@@ -7,7 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -15,7 +14,7 @@ redirect_from:
   <title>Amirrea's Page</title>
   
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Poppins:wght@600&display=swap" rel="stylesheet">
   
   <!-- Font Awesome for Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -32,9 +31,11 @@ redirect_from:
       --text-color: #333;
       --light-text: #ecf0f1;
       --font-family-body: 'Roboto', sans-serif;
-      --font-family-heading: 'Montserrat', sans-serif;
+      --font-family-heading: 'Poppins', sans-serif;
       --transition-speed: 0.3s;
       --max-width: 1200px;
+      --nav-height: 70px;
+      --shadow-color: rgba(0, 0, 0, 0.1);
     }
     
     /* Global Styles */
@@ -59,7 +60,7 @@ redirect_from:
     }
     
     a:hover {
-      color: darken(var(--primary-color), 10%);
+      color: #1d6fa5;
     }
     
     h1, h2, h3 {
@@ -93,28 +94,28 @@ redirect_from:
     /* Navigation Bar */
     nav {
       background-color: var(--secondary-color);
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      box-shadow: 0 2px 4px var(--shadow-color);
       position: sticky;
       top: 0;
       z-index: 1000;
       transition: background-color var(--transition-speed);
+      height: var(--nav-height);
     }
     
     .nav-container {
       max-width: var(--max-width);
       margin: 0 auto;
       display: flex;
-      flex-wrap: wrap;
       justify-content: space-between;
       align-items: center;
+      height: 100%;
       padding: 0 20px;
-      height: 60px;
     }
     
     .logo a {
       color: var(--light-text);
       font-size: 1.8em;
-      font-weight: bold;
+      font-weight: 700;
       text-decoration: none;
       transition: color var(--transition-speed);
     }
@@ -125,11 +126,13 @@ redirect_from:
     }
     
     .nav-links a {
-      color: var(--light-text);
-      padding: 14px 16px;
-      text-align: center;
-      transition: background-color var(--transition-speed), color var(--transition-speed);
+      color: #bdc3c7; /* Lighter shade for better contrast */
+      padding: 10px 15px;
+      margin: 0 5px;
       border-radius: 4px;
+      transition: background-color var(--transition-speed), color var(--transition-speed);
+      font-weight: 500;
+      font-size: 1em;
     }
     
     .nav-links a:hover {
@@ -155,7 +158,7 @@ redirect_from:
       background: url('https://your-image-url.com/header-bg.jpg') no-repeat center center/cover;
       color: #fff;
       text-align: center;
-      padding: 120px 20px;
+      padding: 150px 20px;
       position: relative;
       transition: background-image var(--transition-speed);
     }
@@ -229,21 +232,21 @@ redirect_from:
     /* Cards for Lists */
     .card {
       background: #fff;
-      padding: 20px;
-      margin-bottom: 20px;
-      border-radius: 10px;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      padding: 25px 30px;
+      margin-bottom: 30px;
+      border-radius: 15px;
+      box-shadow: 0 8px 16px var(--shadow-color);
       transition: transform var(--transition-speed), box-shadow var(--transition-speed);
     }
     
     .card:hover {
       transform: translateY(-5px);
-      box-shadow: 0 8px 12px rgba(0,0,0,0.2);
+      box-shadow: 0 12px 24px var(--shadow-color);
     }
     
     body.dark-mode .card {
       background-color: #1f1f1f;
-      box-shadow: 0 4px 6px rgba(255,255,255,0.1);
+      box-shadow: 0 8px 16px rgba(255,255,255,0.05);
     }
     
     /* Education & Research */
@@ -254,6 +257,17 @@ redirect_from:
     ul li {
       margin-bottom: 15px;
       font-size: 1.1em;
+      position: relative;
+      padding-left: 20px;
+    }
+    
+    ul li::before {
+      content: "•";
+      position: absolute;
+      left: 0;
+      color: var(--primary-color);
+      font-size: 1.2em;
+      top: 0;
     }
     
     /* Courses Table */
@@ -271,12 +285,13 @@ redirect_from:
       padding: 14px;
       text-align: left;
       transition: background-color var(--transition-speed);
+      font-size: 1em;
     }
     
     th {
       background-color: var(--primary-color);
       color: #fff;
-      font-size: 1.1em;
+      font-weight: 600;
     }
     
     tr:nth-child(even) {
@@ -291,6 +306,15 @@ redirect_from:
     .projects ul li {
       font-size: 1.1em;
       margin-bottom: 15px;
+      position: relative;
+      padding-left: 20px;
+    }
+    
+    .projects ul li::before {
+      content: "🔹";
+      position: absolute;
+      left: 0;
+      top: 0;
     }
     
     /* Hobbies Section */
@@ -302,17 +326,18 @@ redirect_from:
     }
     
     .hobby {
-      background: #fff;
+      background: linear-gradient(135deg, #f0f0f0, #ffffff);
       padding: 25px;
-      border-radius: 10px;
+      border-radius: 15px;
       text-align: center;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-      transition: transform var(--transition-speed), box-shadow var(--transition-speed);
+      box-shadow: 0 8px 16px var(--shadow-color);
+      transition: transform var(--transition-speed), box-shadow var(--transition-speed), background 0.3s ease;
     }
     
     .hobby:hover {
       transform: translateY(-10px);
-      box-shadow: 0 12px 20px rgba(0,0,0,0.2);
+      box-shadow: 0 16px 32px var(--shadow-color);
+      background: linear-gradient(135deg, #e0e0e0, #f9f9f9);
     }
     
     .hobby i {
@@ -328,16 +353,18 @@ redirect_from:
     .hobby h3 {
       font-size: 1.5em;
       margin-bottom: 10px;
+      color: var(--secondary-color);
     }
     
     .hobby p {
       font-size: 1em;
       color: #555;
+      transition: color var(--transition-speed);
     }
     
     body.dark-mode .hobby {
-      background-color: #1f1f1f;
-      box-shadow: 0 4px 8px rgba(255,255,255,0.05);
+      background: #1f1f1f;
+      box-shadow: 0 8px 16px rgba(255,255,255,0.05);
     }
     
     body.dark-mode .hobby p {
@@ -392,7 +419,7 @@ redirect_from:
       }
       
       header.header {
-        padding: 80px 20px;
+        padding: 100px 20px;
       }
       
       header.header h1 {
@@ -424,7 +451,7 @@ redirect_from:
         <a href="#courses">Courses</a>
         <a href="#projects">Projects</a>
         <a href="#hobbies">Hobbies</a>
-        <span class="dark-mode-toggle" id="dark-mode-toggle">
+        <span class="dark-mode-toggle" id="dark-mode-toggle" aria-label="Toggle Dark Mode">
           <i class="fas fa-moon"></i>
         </span>
       </div>
@@ -592,7 +619,7 @@ redirect_from:
     <div class="hobbies-container">
       
       <!-- Chess -->
-      <div class="hobby card">
+      <div class="hobby">
         <i class="fas fa-chess-knight" style="color:#2c3e50;"></i>
         <h3>♟️ Chess</h3>
         <p>
@@ -602,7 +629,7 @@ redirect_from:
       </div>
       
       <!-- Music -->
-      <div class="hobby card">
+      <div class="hobby">
         <i class="fab fa-spotify" style="color:#1db954;"></i>
         <h3>🎵 Music</h3>
         <p>
@@ -613,7 +640,7 @@ redirect_from:
       </div>
       
       <!-- Letterboxd -->
-      <div class="hobby card">
+      <div class="hobby">
         <i class="fas fa-film" style="color:#e74c3c;"></i>
         <h3>🎬 Letterboxd</h3>
         <p>
@@ -623,7 +650,7 @@ redirect_from:
       </div>
       
       <!-- Duolingo -->
-      <div class="hobby card">
+      <div class="hobby">
         <i class="fas fa-language" style="color:#27ae60;"></i>
         <h3>🌐 Duolingo</h3>
         <p>
