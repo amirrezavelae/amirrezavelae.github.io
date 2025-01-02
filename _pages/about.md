@@ -19,7 +19,6 @@ redirect_from:
 
 <!-- Header Section -->
 <div style="text-align: center; padding: 20px;">
-  <img src="https://your-avatar-url.com/avatar.png" alt="Amirreza's Avatar" style="border-radius: 50%; width: 150px; height: 150px;">
   <h1>Welcome to Amirrea's Page</h1>
   <p>4th-year BSc Student in Electrical Engineering at Sharif University of Technology</p>
 </div>
@@ -168,11 +167,18 @@ redirect_from:
   <h2>🎨 Hobbies</h2>
   <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
     
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    
     <!-- Chess -->
     <div style="text-align: center;">
-      <img src="https://cdn-icons-png.flaticon.com/512/616/616439.png" alt="Chess Icon" style="width:50px; height:50px;">
+      <!-- Replace the image with an icon from the integrated CDN -->
+      <i class="fi-rr-chess-pawn" style="font-size:50px; color:black;"></i>
       <h3>♟️ Chess</h3>
-      <p>I enjoy strategizing and competing on <a href="https://www.chess.com/member/yourusername" target="_blank">Chess.com</a>. It's a great way to enhance my problem-solving and strategic thinking skills.</p>
+      <p>
+        I enjoy strategizing and competing on 
+        <a href="https://link.chess.com/friend/SiXm6d" target="_blank">Chess.com</a>. 
+        It's a great way to enhance my problem-solving and strategic thinking skills.
+      </p>
     </div>
     
     <!-- Music -->
