@@ -689,7 +689,6 @@ redirect_from:
     <p class="footer-acknowledgment">
       Website improved with <a href="https://chat.openai.com/" target="_blank">ChatGPT's</a> help.
     </p>
-    <p>&copy; 2025 Amirrea. All rights reserved.</p>
   </footer>
   
   <!-- JavaScript for Dark Mode Toggle -->
