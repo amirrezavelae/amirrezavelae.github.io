@@ -196,7 +196,8 @@ redirect_from:
       <h3 style="font-size:1.2em;">🎬 Letterboxd</h3>
       <p style="font-size:0.9em;">
         I enjoy tracking and reviewing movies. Check out my profile or
-        <a href="https://letterboxd.com/yourprofile" target="_blank" style="color: blue; text-decoration: underline;">follow me</a>.
+        <a href="https://letterboxd.com/amirrezza/" target="_blank" style="color: blue; text-decoration: underline;">follow me</a>
+        and contact me if you have a good movie recomendation..
       </p>
     </div>
 
@@ -205,8 +206,9 @@ redirect_from:
       <img src="https://cdn-icons-png.flaticon.com/512/919/919825.png" alt="Duolingo Icon" style="width:30px; height:30px;">
       <h3 style="font-size:1.2em;">🌐 Duolingo</h3>
       <p style="font-size:0.9em;">
-        I'm learning new languages and love practicing. Join me or
-        <a href="https://www.duolingo.com/profile/yourprofile" target="_blank" style="color: blue; text-decoration: underline;">follow my progress</a>.
+        I'm learning Turkish and Russian as my fourth and fifth language as a hobby, If you Duo, 
+        <a href="www.duolingo.com/profile/amirVreza" target="_blank" style="color: blue; text-decoration: underline;">contact me</a>.
+        to get nodged some times!
       </p>
     </div>
 
