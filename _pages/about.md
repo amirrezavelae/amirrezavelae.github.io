@@ -7,7 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -467,7 +466,6 @@ redirect_from:
         <a href="#research">Research Interests</a>
         <a href="#courses">Courses</a>
         <a href="#projects">Projects</a>
-        <a href="#hobbies">Hobbies</a>
         <span class="dark-mode-toggle" id="dark-mode-toggle" aria-label="Toggle Dark Mode">
           <i class="fas fa-moon"></i>
         </span>
