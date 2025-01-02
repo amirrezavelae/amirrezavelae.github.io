@@ -19,7 +19,7 @@ redirect_from:
 
 <!-- Header Section -->
 <div style="text-align: center; padding: 20px;">
-  <h1>Welcome to Amirrea's Page</h1>
+  <h1>Welcome to my Page!</h1>
   <p>4th-year BSc Student in Electrical Engineering at Sharif University of Technology</p>
 </div>
 
@@ -163,43 +163,63 @@ redirect_from:
 </section>
 
 <!-- Hobbies -->
-<section id="hobbies">
-  <h2>🎨 Hobbies</h2>
-  <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
-    
+<section id="hobbies" style="padding: 20px;">
+  <h2 style="text-align: center; font-size: 1.8em;">🎨 Hobbies</h2>
+  <div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
+
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
-    
+
     <!-- Chess -->
-    <div style="text-align: center;">
-      <!-- Replace the image with an icon from the integrated CDN -->
-      <i class="fi-rr-chess-pawn" style="font-size:50px; color:black;"></i>
-      <h3>♟️ Chess</h3>
-      <p>
-        I enjoy strategizing and competing on 
-        <a href="https://link.chess.com/friend/SiXm6d" target="_blank">Chess.com</a>. 
-        It's a great way to enhance my problem-solving and strategic thinking skills.
+    <div style="text-align: center; flex: 1 1 150px;">
+      <i class="fi-rr-chess-pawn" style="font-size:30px; color:black;"></i>
+      <h3 style="font-size:1.2em;">♟️ Chess</h3>
+      <p style="font-size:0.9em;">
+        I like to play chess, so if you want to play with a beginner, don't mind to contact me:
+        <a href="https://link.chess.com/friend/SiXm6d" target="_blank" style="color: blue; text-decoration: underline;">Chess.com</a>
       </p>
     </div>
-    
+
     <!-- Music -->
-    <div style="text-align: center;">
-      <img src="https://cdn-icons-png.flaticon.com/512/174/174872.png" alt="Spotify Icon" style="width:50px; height:50px;">
-      <h3>🎵 Music</h3>
-      <p>Listening to music is my way to relax and find inspiration. Check out my playlists on <a href="https://open.spotify.com/user/yourusername" target="_blank">Spotify</a>.</p>
+    <div style="text-align: center; flex: 1 1 150px;">
+      <img src="https://cdn-icons-png.flaticon.com/512/174/174872.png" alt="Spotify Icon" style="width:30px; height:30px;">
+      <h3 style="font-size:1.2em;">🎵 Music</h3>
+      <p style="font-size:0.9em;">
+        I'm new to Spotify, but if you have a strong taste in music, send me your playlist or
+        <a href="https://open.spotify.com/user/31ydjo3ivzw7kyuih26z6kbyy6n4" target="_blank" style="color: blue; text-decoration: underline;">follow me</a>.
+        I'll listen and tell you what I think (Please do it if you have non-English playlists; I love them).
+      </p>
     </div>
-    
-    <!-- Additional Hobbies -->
-    <!-- You can add more hobbies here following the same structure -->
-    
+
+    <!-- Letterboxd -->
+    <div style="text-align: center; flex: 1 1 150px;">
+      <img src="https://cdn-icons-png.flaticon.com/512/929/929624.png" alt="Letterboxd Icon" style="width:30px; height:30px;">
+      <h3 style="font-size:1.2em;">🎬 Letterboxd</h3>
+      <p style="font-size:0.9em;">
+        I enjoy tracking and reviewing movies. Check out my profile or
+        <a href="https://letterboxd.com/yourprofile" target="_blank" style="color: blue; text-decoration: underline;">follow me</a>.
+      </p>
+    </div>
+
+    <!-- Duolingo -->
+    <div style="text-align: center; flex: 1 1 150px;">
+      <img src="https://cdn-icons-png.flaticon.com/512/919/919825.png" alt="Duolingo Icon" style="width:30px; height:30px;">
+      <h3 style="font-size:1.2em;">🌐 Duolingo</h3>
+      <p style="font-size:0.9em;">
+        I'm learning new languages and love practicing. Join me or
+        <a href="https://www.duolingo.com/profile/yourprofile" target="_blank" style="color: blue; text-decoration: underline;">follow my progress</a>.
+      </p>
+    </div>
+
   </div>
 </section>
+
 
 <!-- Footer Section -->
 <footer style="text-align: center; padding: 20px; background-color:#f1f1f1;">
   <p>© 2025 Amirreza VelAe. All rights reserved.</p>
   <p>
     <a href="https://github.com/amirrezavelae" target="_blank">GitHub</a> | 
-    <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a> | 
-    <a href="mailto:your.email@example.com">Email</a>
+    <a href="https://www.linkedin.com/in/amirreza-velae-22166321a/" target="_blank">LinkedIn</a> | 
+    <a href="amirrezavelae@gmail.com">Email</a>
   </p>
 </footer>
