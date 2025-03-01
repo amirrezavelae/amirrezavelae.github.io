@@ -521,87 +521,72 @@ redirect_from:
     </div>
   </section>
   
-  <!-- Courses Section -->
-  <section id="courses">
+ <!-- Courses Section -->
+  <section id="courses" style="max-width: 800px; overflow-x: auto;">
     <h2>📚 Selected Advanced Courses</h2>
     <div class="card">
-      <table>
+      <table style="white-space: nowrap;">
         <thead>
           <tr>
             <th>Course</th>
-            <th>Grade</th>
             <th>Status</th>
           </tr>
         </thead>
         <tbody>
           <tr>
             <td>Machine Learning</td>
-            <td>19.5/20.0</td>
             <td>Completed</td>
           </tr>
           <tr>
             <td>Signal and System</td>
-            <td>19.2/20.0</td>
             <td>Completed</td>
           </tr>
           <tr>
             <td>Mathematical Methods in Engineering (Linear Algebra)</td>
-            <td>19.8/20.0</td>
             <td>Completed</td>
           </tr>
           <tr>
             <td>Game Theory</td>
-            <td>17.8/20</td>
             <td>Completed</td>
           </tr>
           <tr>
             <td>Optimization</td>
-            <td>17/20</td>
             <td>Completed</td>
           </tr>
           <tr>
             <td>Reinforcement Learning <span style="color:red;">*</span></td>
-            <td>20/20</td>
             <td>Graduated Course</td>
           </tr>
           <tr>
             <td>Deep Learning <span style="color:red;">*</span></td>
-            <td>17.2/20.0</td>
             <td>Graduated Course</td>
           </tr>
           <tr>
             <td>Random Walks and Percolation <span style="color:red;">*</span></td>
-            <td>—</td>
             <td>Audited</td>
           </tr>
           <tr>
             <td>Stochastic Processes</td>
-            <td>—</td>
             <td>Self-Studied</td>
           </tr>
           <tr>
             <td>Convex Optimization II <span style="color:red;">*</span></td>
-            <td>—</td>
             <td>Currently Enrolled</td>
           </tr>
           <tr>
             <td>Optimal Control <span style="color:red;">*</span></td>
-            <td>—</td>
             <td>Currently Enrolled</td>
           </tr>
           <tr>
             <td>High Dimensional Probability <span style="color:red;">*</span></td>
-            <td>—</td>
             <td>Currently Enrolled</td>
           </tr>
           <tr>
             <td>Non-Convex Optimization <span style="color:red;">*</span></td>
-            <td>—</td>
             <td>Currently Enrolled</td>
           </tr>
           <tr>
             <td>Online Learning <span style="color:red;">*</span></td>
-            <td>—</td>
             <td>Currently Auditing</td>
           </tr>
         </tbody>
