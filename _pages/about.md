@@ -555,11 +555,11 @@ redirect_from:
           </tr>
           <tr>
             <td>Reinforcement Learning <span style="color:red;">*</span></td>
-            <td>Graduated Course</td>
+            <td>Completed</td>
           </tr>
           <tr>
             <td>Deep Learning <span style="color:red;">*</span></td>
-            <td>Graduated Course</td>
+            <td>Completed</td>
           </tr>
           <tr>
             <td>Random Walks and Percolation <span style="color:red;">*</span></td>
@@ -571,23 +571,35 @@ redirect_from:
           </tr>
           <tr>
             <td>Convex Optimization II <span style="color:red;">*</span></td>
-            <td>Currently Enrolled</td>
+            <td>Completed</td>
           </tr>
           <tr>
             <td>Optimal Control <span style="color:red;">*</span></td>
-            <td>Currently Enrolled</td>
+            <td>Completed</td>
           </tr>
           <tr>
             <td>High Dimensional Probability <span style="color:red;">*</span></td>
-            <td>Currently Enrolled</td>
+            <td>Completed</td>
           </tr>
           <tr>
-            <td>Non-Convex Optimization <span style="color:red;">*</span></td>
-            <td>Currently Enrolled</td>
+            <td>Numerical Optimization <span style="color:red;">*</span></td>
+            <td>Completed</td>
+          </tr>
+         <tr>
+            <td>Optimization Seminar <span style="color:red;">*</span></td>
+            <td>Completed</td>
           </tr>
           <tr>
             <td>Online Learning <span style="color:red;">*</span></td>
-            <td>Currently Auditing</td>
+            <td>Audited</td>
+          </tr>
+          <tr>
+            <td>Information Theory, Statistics and Learning<span style="color:red;">*</span></td>
+            <td>Currently Enroled</td>
+          </tr>
+          <tr>
+            <td>Graphical Models <span style="color:red;">*</span></td>
+            <td>Currently Enroled</td>
           </tr>
         </tbody>
       </table>
