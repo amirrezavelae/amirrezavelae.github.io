@@ -516,7 +516,6 @@ redirect_from:
         <li>Optimization</li>
         <li>Game Theory</li>
         <li>High Dimensional Statistics and Probability</li>
-        <li>Random Walks and Percolation</li>
       </ul>
     </div>
   </section>
