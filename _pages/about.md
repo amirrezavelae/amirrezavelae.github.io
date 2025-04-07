@@ -13,7 +13,6 @@ redirect_from:
   <a href="#education">Education</a>
   <a href="#research">Research Interests</a>
   <a href="#projects">Projects</a>
-  <a href="#hobbies">Hobbies</a>
 </nav>
 
 <!-- Header Section -->
