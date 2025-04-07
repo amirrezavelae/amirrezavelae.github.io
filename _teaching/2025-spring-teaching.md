@@ -3,7 +3,7 @@ title: "2025 Spring"
 collection: teaching
 type: "Graduate & Undergraduate Course"
 permalink: /teaching/2025-spring-teaching
-venue: "Sharif University of Technology, EE Department"
+venue: "Sharif University of Technology, CE & EE Department"
 date: 2026-01-10
 location: "Tehran, Iran"
 ---
