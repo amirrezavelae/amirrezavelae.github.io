@@ -6,13 +6,12 @@ redirect_from:
   - /about/
   - /about.html
 ---
-
 <!-- Navigation Bar -->
-<nav>
-  <a href="#about">About</a>
-  <a href="#education">Education</a>
-  <a href="#research">Research Interests</a>
-  <a href="#projects">Projects</a>
+<nav style="display: flex; justify-content: center; gap: 20px; background-color: #f9f9f9; padding: 12px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+  <a href="#about" style="text-decoration: none; color: #333; font-weight: bold;">About</a>
+  <a href="#education" style="text-decoration: none; color: #333; font-weight: bold;">Education</a>
+  <a href="#research" style="text-decoration: none; color: #333; font-weight: bold;">Research Interests</a>
+  <a href="#projects" style="text-decoration: none; color: #333; font-weight: bold;">Projects</a>
 </nav>
 
 <!-- Introduction -->
