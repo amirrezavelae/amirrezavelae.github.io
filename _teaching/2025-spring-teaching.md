@@ -1,5 +1,5 @@
 ---
-title: "2025 Fall"
+title: "2025 Spring"
 collection: teaching
 type: "Graduate & Undergraduate Course"
 permalink: /teaching/2025-spring-teaching
