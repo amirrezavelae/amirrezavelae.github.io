@@ -30,12 +30,10 @@ redirect_from:
   </p>
   
   <p>
+  Last summer, I had the opportunity to have remote research experience at Max Planck Institute for Intelligent Systems with 
+    <a href="https://www.mpi-inf.mpg.de/departments/graphics-vision/people/charusaie/" target="_blank">Amin Charusaie</a>, where I worked on a project related to adding human feedback to Neural Networks with bayesian layers.
     Right now, I’m working on my B.Sc. thesis under the supervision of 
     <a href="https://scholar.google.ca/citations?user=dcjIFccAAAAJ&hl=en" target="_blank">Prof. Hamed Shah-Mansouri</a>, where I'm exploring the convergence of the ADAM optimizer in policy gradient methods. I’m also fascinated by RL theory and bandit algorithms — anything that helps us better understand learning and decision-making.
-  </p>
-
-  <p>
-    I really enjoy collaborating with others and sharing ideas, whether it's through research projects, teaching, or casual discussions. Learning is way more fun when it's shared!
   </p>
 
   <p>
@@ -60,12 +58,14 @@ redirect_from:
 <section id="research">
   <h2>🔍 Research Interests</h2>
   <ul>
+    <li>Statistical Learning Theory</li>
     <li>Machine Learning</li>
-    <li>Reinforcement Learning</li>
     <li>Optimization</li>
+    <li>Reinforcement Learning</li>
     <li>Game Theory</li>
+    <li>Bandit Algorithms</li>
+    <li>Robustness - Distributional Robustness</li>
     <li>High Dimensional Statistics and Probability</li>
-    <li>Random Walks and Percolation</li>
   </ul>
 </section>
 
@@ -83,57 +83,4 @@ redirect_from:
       <a href="https://www.samirasamadi.com/" target="_blank">Prof. Samira Samadi</a>
     </li>
   </ul>
-</section>
-
-<!-- Hobbies -->
-<section id="hobbies" style="padding: 20px;">
-  <h2 style="text-align: center; font-size: 1.8em;">🎨 Hobbies</h2>
-  <div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
-
-    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
-
-    <!-- Chess -->
-    <div style="text-align: center; flex: 1 1 150px;">
-      <img src="https://amirrezavelae.github.io/images/Chess.svg" alt="Chess Icon" style="width:30px; height:30px;">
-      <h3 style="font-size:1.2em;">♟️ Chess</h3>
-      <p style="font-size:0.9em;">
-        I like to play chess, so if you want to play with a beginner, don't hesitate to contact me:
-        <a href="https://link.chess.com/friend/SiXm6d" target="_blank" style="color: blue; text-decoration: underline;">Chess.com</a>
-      </p>
-    </div>
-
-    <!-- Music -->
-    <div style="text-align: center; flex: 1 1 150px;">
-      <img src="https://cdn-icons-png.flaticon.com/512/174/174872.png" alt="Spotify Icon" style="width:30px; height:30px;">
-      <h3 style="font-size:1.2em;">🎵 Music</h3>
-      <p style="font-size:0.9em;">
-        I'm new to Spotify, but if you have a strong taste in music, send me your playlist or
-        <a href="https://open.spotify.com/user/31ydjo3ivzw7kyuih26z6kbyy6n4" target="_blank" style="color: blue; text-decoration: underline;">follow me</a>.
-        I'll listen and tell you what I think (Please do it if you have non-English playlists; I love them).
-      </p>
-    </div>
-
-    <!-- Letterboxd -->
-    <div style="text-align: center; flex: 1 1 150px;">
-      <img src="https://amirrezavelae.github.io/images/Letterboxd.svg" alt="Letterboxd Icon" style="width:30px; height:30px;">
-      <h3 style="font-size:1.2em;">🎬 Letterboxd</h3>
-      <p style="font-size:0.9em;">
-        I enjoy tracking and reviewing movies. Check out my profile or
-        <a href="https://letterboxd.com/amirrezza/" target="_blank" style="color: blue; text-decoration: underline;">follow me</a>
-        and contact me if you have a good movie recommendation.
-      </p>
-    </div>
-
-    <!-- Duolingo -->
-    <div style="text-align: center; flex: 1 1 150px;">
-      <img src="https://amirrezavelae.github.io/images/Duolingo.svg" alt="Duolingo Icon" style="width:30px; height:30px;">
-      <h3 style="font-size:1.2em;">🌐 Duolingo</h3>
-      <p style="font-size:0.9em;">
-        I'm learning Turkish and Russian as my fourth and fifth languages as a hobby. If you have Duo,
-        <a href="https://www.duolingo.com/profile/amirVreza" target="_blank" style="color: blue; text-decoration: underline;">contact me</a>
-        to get nudged sometimes!
-      </p>
-    </div>
-
-  </div>
 </section>
