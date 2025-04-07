@@ -15,12 +15,6 @@ redirect_from:
   <a href="#projects">Projects</a>
 </nav>
 
-<!-- Header Section -->
-<div>
-  <h1>Welcome to my Page!</h1>
-  <p>4th-year BSc Student in Electrical Engineering at Sharif University of Technology</p>
-</div>
-
 <!-- Introduction -->
 <section id="about">
   <h2>About Me</h2>
