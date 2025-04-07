@@ -8,17 +8,16 @@ redirect_from:
 ---
 
 <!-- Navigation Bar -->
-<nav style="background-color:#333; overflow:hidden;">
-  <a href="#about" style="float:left; color:#f2f2f2; text-align:center; padding:14px 16px; text-decoration:none;">About</a>
-  <a href="#education" style="float:left; color:#f2f2f2; text-align:center; padding:14px 16px; text-decoration:none;">Education</a>
-  <a href="#research" style="float:left; color:#f2f2f2; text-align:center; padding:14px 16px; text-decoration:none;">Research Interests</a>
-  <a href="#courses" style="float:left; color:#f2f2f2; text-align:center; padding:14px 16px; text-decoration:none;">Courses</a>
-  <a href="#projects" style="float:left; color:#f2f2f2; text-align:center; padding:14px 16px; text-decoration:none;">Projects</a>
-  <a href="#hobbies" style="float:left; color:#f2f2f2; text-align:center; padding:14px 16px; text-decoration:none;">Hobbies</a>
+<nav>
+  <a href="#about">About</a>
+  <a href="#education">Education</a>
+  <a href="#research">Research Interests</a>
+  <a href="#projects">Projects</a>
+  <a href="#hobbies">Hobbies</a>
 </nav>
 
 <!-- Header Section -->
-<div style="text-align: center; padding: 20px;">
+<div>
   <h1>Welcome to my Page!</h1>
   <p>4th-year BSc Student in Electrical Engineering at Sharif University of Technology</p>
 </div>
@@ -27,13 +26,24 @@ redirect_from:
 <section id="about">
   <h2>About Me</h2>
   <p>
-    Hi, I'm Amirreza. I'm a 4th-year BSc student in Electrical Engineering at Sharif University of Technology, minoring in Applied Mathematics. I have a keen interest in Optimization and Machine Learning, specifically Reinforcement Learning.
+    Hey there! I'm Amirreza Velae — an Electrical Engineering and Mathematics student at Sharif University of Technology. I'm deeply curious about how intelligent systems learn and improve, which naturally led me to the world of machine learning, optimization, and especially reinforcement learning.
   </p>
+  
   <p>
-    Feel free to reach out via the contact information and social media links on the left side of this page. If you have any questions or suggestions, don't hesitate to contact me.
+    Right now, I’m working on my B.Sc. thesis under the supervision of 
+    <a href="https://scholar.google.ca/citations?user=dcjIFccAAAAJ&hl=en" target="_blank">Prof. Hamed Shah-Mansouri</a>, where I'm exploring the convergence of the ADAM optimizer in policy gradient methods. I’m also fascinated by RL theory and bandit algorithms — anything that helps us better understand learning and decision-making.
   </p>
+
   <p>
-    You can view a summary of my resume below or check my <a href="https://amirrezavelae.github.io/cv/" target="_blank">[CV](https://amirrezavelae.github.io/cv/)</a> for more detailed information about my background and experiences.
+    I really enjoy collaborating with others and sharing ideas, whether it's through research projects, teaching, or casual discussions. Learning is way more fun when it's shared!
+  </p>
+
+  <p>
+    Outside of academics, you’ll usually find me playing chess or soccer, reading a good book, or watching movies. I'm always up for movie or music recommendations — so if you’ve got a favorite film or playlist, send it my way!
+  </p>
+
+  <p>
+    Feel free to reach out through the contact info or social links on the left. Whether you want to chat about research, share a cool idea, or just say hi — I’d love to hear from you!
   </p>
 </section>
 
@@ -59,99 +69,12 @@ redirect_from:
   </ul>
 </section>
 
-<!-- Selected Advanced Courses -->
-<section id="courses">
-  <h2>📚 Selected Advanced Courses</h2>
-  <table>
-    <thead>
-      <tr>
-        <th>Course</th>
-        <th>Grade</th>
-        <th>Status</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Machine Learning</td>
-        <td>19.5/20.0</td>
-        <td>Completed</td>
-      </tr>
-      <tr>
-        <td>Signal and System</td>
-        <td>19.2/20.0</td>
-        <td>Completed</td>
-      </tr>
-      <tr>
-        <td>Mathematical Methods in Engineering (Linear Algebra)</td>
-        <td>19.8/20.0</td>
-        <td>Completed</td>
-      </tr>
-      <tr>
-        <td>Game Theory</td>
-        <td>17.8/20</td>
-        <td>Completed</td>
-      </tr>
-      <tr>
-        <td>Optimization</td>
-        <td>17/20</td>
-        <td>Completed</td>
-      </tr>
-      <tr>
-        <td>Reinforcement Learning <span style="color:red;">*</span></td>
-        <td>20/20</td>
-        <td>Graduated Course</td>
-      </tr>
-      <tr>
-        <td>Deep Learning <span style="color:red;">*</span></td>
-        <td>17.2/20.0</td>
-        <td>Graduated Course</td>
-      </tr>
-      <tr>
-        <td>Random Walks and Percolation <span style="color:red;">*</span></td>
-        <td>—</td>
-        <td>Audited</td>
-      </tr>
-      <tr>
-        <td>Stochastic Processes</td>
-        <td>—</td>
-        <td>Self-Studied</td>
-      </tr>
-      <tr>
-        <td>Convex Optimization II <span style="color:red;">*</span></td>
-        <td>—</td>
-        <td>Currently Enrolled</td>
-      </tr>
-      <tr>
-        <td>Optimal Control <span style="color:red;">*</span></td>
-        <td>—</td>
-        <td>Currently Enrolled</td>
-      </tr>
-      <tr>
-        <td>High Dimensional Probability <span style="color:red;">*</span></td>
-        <td>—</td>
-        <td>Currently Enrolled</td>
-      </tr>
-      <tr>
-        <td>Non-Convex Optimization <span style="color:red;">*</span></td>
-        <td>—</td>
-        <td>Currently Enrolled</td>
-      </tr>
-      <tr>
-        <td>Online Learning <span style="color:red;">*</span></td>
-        <td>—</td>
-        <td>Currently Auditing</td>
-      </tr>
-    </tbody>
-  </table>
-  <p><span style="color:red;">*</span> Indicates a Graduated Course</p>
-</section>
-
 <!-- Selected Projects -->
 <section id="projects">
   <h2>💡 Selected Projects</h2>
   <ul>
     <li>
-      <strong>Policy Planning in Large Language Models</strong> (Ongoing) - 
+      <strong>Debias Ranking with BackPack Language Model</strong> -
       <a href="https://scholar.google.com/citations?user=yiZk6coAAAAJ&hl=en" target="_blank">Advisor: Prof. Mohammad Aliannejadi</a>
     </li>
     <li>
@@ -214,12 +137,3 @@ redirect_from:
 
   </div>
 </section>
-
-<!-- Footer Section -->
-<footer style="text-align: center; padding: 20px; background-color:#f1f1f1;">
-  <p>
-    <a href="https://github.com/amirrezavelae" target="_blank">GitHub</a> | 
-    <a href="https://www.linkedin.com/in/amirreza-velae-22166321a/" target="_blank">LinkedIn</a> | 
-    <a href="amirrezavelae@gmail.com">Email</a>
-  </p>
-</footer>
