@@ -59,13 +59,9 @@ redirect_from:
   <h2>🔍 Research Interests</h2>
   <ul>
     <li>Statistical Learning Theory</li>
-    <li>Machine Learning</li>
     <li>Optimization</li>
     <li>Reinforcement Learning</li>
-    <li>Game Theory</li>
     <li>Bandit Algorithms</li>
-    <li>Robustness - Distributional Robustness</li>
-    <li>High Dimensional Statistics and Probability</li>
   </ul>
 </section>
 
