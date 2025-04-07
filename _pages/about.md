@@ -79,8 +79,7 @@ redirect_from:
     </li>
     <li>
       <strong>L2D in Bayesian Neural Networks</strong> - 
-      <a href="https://charusaie.github.io/" target="_blank">Advisor: Amin Charusaie</a> & 
-      <a href="https://www.samirasamadi.com/" target="_blank">Prof. Samira Samadi</a>
+      <a href="https://charusaie.github.io/" target="_blank">Advisor: Amin Charusaie</a>
     </li>
   </ul>
 </section>
