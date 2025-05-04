@@ -2,7 +2,7 @@
 title: "2025 Fall"
 collection: teaching
 type: "Graduate & Undergraduate Course"
-permalink: /teaching/2025-spring-teaching
+permalink: /teaching/2025-fall-teaching
 venue: "Sharif University of Technology, CE & EE Department"
 date: 2025-09-10
 location: "Tehran, Iran"
