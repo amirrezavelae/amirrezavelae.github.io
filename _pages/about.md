@@ -72,3 +72,9 @@ redirect_from:
     </li>
   </ul>
 </section>
+
+<blockquote style="margin-top: 40px; font-style: italic; text-align: center; color: #555;">
+  "The bandits be my weaknesses<br>
+  His fault shall be my knife" <br>— <em>Nico</em>
+</blockquote>
+
