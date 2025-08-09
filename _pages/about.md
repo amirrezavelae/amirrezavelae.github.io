@@ -53,7 +53,6 @@ redirect_from:
   </p>
 </section>
 
-
 <!-- Education -->
 <section id="education">
   <h2>🎓 Education</h2>
@@ -90,7 +89,5 @@ redirect_from:
 </section>
 
 <blockquote style="margin-top: 40px; font-style: italic; text-align: center; color: #555;">
-  "The bandits be my weaknesses<br>
-  His fault shall be my knife" <br>— <em>Nico</em>
+  "The exploiter never tells the exploited how he's exploiting them."<br>— <em>Jean-Luc Godard</em>
 </blockquote>
-
