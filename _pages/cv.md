@@ -8,4 +8,4 @@ redirect_from:
 ---
 
 {% include base_path %}
-Download my [CV](https://raw.githubusercontent.com/amirrezavelae/amirrezavelae.github.io/master/files/CV.pdf) from here
+Download my CV from [here](https://raw.githubusercontent.com/amirrezavelae/amirrezavelae.github.io/master/files/CV.pdf)

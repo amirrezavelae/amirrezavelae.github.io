@@ -19,24 +19,40 @@ redirect_from:
 <section id="about">
   <h2>About Me</h2>
   <p>
-    Hey there! I'm Amirreza Velae — an Electrical Engineering and Mathematics student at Sharif University of Technology. I'm deeply curious about how intelligent systems learn and improve, which naturally led me to the world of machine learning, optimization, and especially reinforcement learning.
-  </p>
-  
-  <p>
-  Last summer, I had the opportunity to have remote research experience at Max Planck Institute for Intelligent Systems with 
-    <a href="https://is.mpg.de/person/mcharusaie" target="_blank">Amin Charusaie</a>, where I worked on a project related to adding human feedback to Neural Networks with bayesian layers.
-    Right now, I’m working on my B.Sc. thesis under the supervision of 
-    <a href="https://scholar.google.ca/citations?user=dcjIFccAAAAJ&hl=en" target="_blank">Prof. Hamed Shah-Mansouri</a>, where I'm exploring the convergence of the ADAM optimizer in policy gradient methods. I’m also fascinated by RL theory and bandit algorithms — anything that helps us better understand learning and decision-making.
+    I'm Amirreza Velae — an Electrical Engineering and Mathematics student at Sharif University of Technology. 
+    I’m deeply curious about the nature of intelligence and how we can replicate it in machines. 
+    This curiosity naturally drew me toward machine learning, optimization, and especially reinforcement learning.
   </p>
 
   <p>
-    Outside of academics, you’ll usually find me playing chess or soccer, reading a good book, or watching movies. I'm always up for movie or music recommendations — so if you’ve got a favorite film or playlist, send it my way!
+    My primary research interest is reinforcement learning, as I believe it holds the most promise for achieving general intelligence. 
+    I’m particularly drawn to the theoretical aspects of deep reinforcement learning, bandit algorithms, and statistical learning theory. 
+    For my B.Sc. thesis, I studied the convergence of Trust Region Policy Optimization (TRPO) under the supervision of 
+    <a href="https://scholar.google.ca/citations?user=dcjIFccAAAAJ&hl=en" target="_blank">Prof. Hamed Shah-Mansouri</a>.
   </p>
 
   <p>
-    Feel free to reach out through the contact info or social links on the left. Whether you want to chat about research, share a cool idea, or just say hi — I’d love to hear from you!
+    In summer 2024, I had the opportunity to conduct remote research at the Max Planck Institute for Intelligent Systems 
+    with <a href="https://is.mpg.de/person/mcharusaie" target="_blank">Amin Charusaie</a>, 
+    working on incorporating human feedback into neural networks using Bayesian layers. 
+    I also collaborated with <a href="https://scholar.google.com/citations?user=yiZk6coAAAAJ&hl=en" target="_blank">Prof. Mohammad Aliannejadi</a> 
+    on debiasing ranking algorithms, exploring methods to reduce bias in language models.  
+    This summer (2025), I’m working under the supervision of 
+    <a href="https://arashbaharik.github.io/" target="_blank">Arash Bahari Kordabadi</a> 
+    and <a href="https://hycodev.com/ssoudjani" target="_blank">Sadegh Soudjani</a> 
+    at the Max Planck Institute for Software Systems, focusing on developing second-order reinforcement learning algorithms.
+  </p>
+
+  <p>
+    Outside of academics, you’ll usually find me playing chess or soccer, or following chess tournaments.
+  </p>
+
+  <p>
+    Feel free to reach out through the contact information or social links on the left. 
+    Whether you’d like to discuss research, share a cool idea, or just say hello — I’d love to hear from you!
   </p>
 </section>
+
 
 <!-- Education -->
 <section id="education">
