@@ -1,97 +1,43 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
+    "name": "Amirreza",
+    "email": "amirrezavelae@ee.sharif.edu",
     "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "website": "https://amirrezavelae.github.io/",
+    "summary": "Currently employed at Sharif University. Student",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
+      "city": "Tehran",
       "countryCode": "US",
       "region": ""
     },
     "profiles": [
       {
-        "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-      },
-      {
-        "network": "ORCID",
-        "username": "",
-        "url": "http://orcid.org/yourorcidurl"
-      },
-      {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "amirrezavelae",
+        "url": "https://github.com/amirrezavelae"
+      },
+      {
+        "network": "Twitter",
+        "username": "hellsiceseller",
+        "url": "https://twitter.com/hellsiceseller"
       }
     ]
   },
   "work": [],
-  "education": [
-    {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
-      "courses": []
-    }
-  ],
+  "education": [],
   "skills": [],
   "languages": [],
   "interests": [],
   "references": [],
   "publications": [
     {
-      "name": "Paper Title Number 1",
+      "name": "Towards Fair Retrieval:  Controlling Bias through a Backpack-Inspired Architecture",
       "publisher": "Journal 1",
       "releaseDate": "2009-10-01",
       "website": "http://academicpages.github.io/files/paper1.pdf",
       "summary": "This paper is about the number 1. The number 2 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "http://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
     }
   ],
   "presentations": [
@@ -126,17 +72,38 @@
   ],
   "teaching": [
     {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
+      "course": "2023 Spring",
+      "institution": "Sharif University of Technology, EE department",
+      "date": "2023-01-17",
       "role": "Undergraduate course",
       "description": ""
     },
     {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
+      "course": "2024 Fall",
+      "institution": "Sharif University of Technology, EE Department",
+      "date": "2024-01-17",
+      "role": "Undergraduate Course",
+      "description": ""
+    },
+    {
+      "course": "2024 Spring",
+      "institution": "Sharif University of Technology, EE Department",
+      "date": "2024-01-10",
+      "role": "Undergraduate Course",
+      "description": ""
+    },
+    {
+      "course": "2025 Fall",
+      "institution": "Sharif University of Technology, CE & EE Department",
+      "date": "2025-09-10",
+      "role": "Graduate & Undergraduate Course",
+      "description": ""
+    },
+    {
+      "course": "2025 Spring",
+      "institution": "Sharif University of Technology, CE & EE Department",
+      "date": "2026-01-10",
+      "role": "Graduate & Undergraduate Course",
       "description": ""
     }
   ],
