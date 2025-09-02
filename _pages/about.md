@@ -83,6 +83,7 @@ redirect_from:
     </li>
     <li>
       <strong>Optimization in Trust Region Policy Optimization (B.Sc. Thesis) </strong> - <a href="https://scholar.google.ca/citations?user=dcjIFccAAAAJ&hl=en" target="_blank">Advisor: Prof. Hamed Shah-Mansouri</a> - Ongoing
+    </li>
     <li>
       <strong>Second-order Methods for Reinforcement Learning</strong> - <a href="https://arashbaharik.github.io/" target="_blank">Advisors: Arash Bahari Kordabadi </a> & <a href="https://hycodev.com/ssoudjani/" target="_blank">Sadegh Soudjani</a> - Ongoing
     </li>
