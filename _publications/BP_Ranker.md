@@ -5,7 +5,6 @@ category: manuscripts
 date: 2025-09-02 
 venue: "Preprint"
 paperurl: "http://amirrezavelae.github.io/files/backpack__preprint.pdf"  
-permalink: /publication/bp_ranker
 excerpt: "A fairer ranking method built on Backpack language models"
 ---
 Women are still underrepresented pretty much everywhere power hangs out—about 27% of MPs worldwide (Aug 2025) and ~27.5% of managerial roles (2022). Not exactly a rounding error. See <a href="https://data.ipu.org/women-averages/?date_year=2025&date_month=08" target="_blank">IPU Parline</a> and <a href="https://www.unwomen.org/sites/default/files/2024-09/progress-on-the-sustainable-development-goals-the-gender-snapshot-2024-en.pdf" target="_blank">UN Women</a>.
