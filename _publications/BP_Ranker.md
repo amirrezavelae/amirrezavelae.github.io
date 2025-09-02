@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts 
 date: 2025-09-02 
 venue: "Preprint"
-paperurl: "files/backpack__preprint.pdf"  
+paperurl: "http://amirrezavelae.github.io/files/backpack__preprint.pdf"  
 permalink: /publication/bp_ranker
 excerpt: "A fairer ranking method built on Backpack language models"
 ---
