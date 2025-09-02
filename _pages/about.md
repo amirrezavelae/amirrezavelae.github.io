@@ -79,15 +79,16 @@ redirect_from:
   <ul>
     <li>
       <strong>Debias Ranking with BackPack Language Model</strong> -
-      <a href="https://scholar.google.com/citations?user=yiZk6coAAAAJ&hl=en" target="_blank">Advisor: Prof. Mohammad Aliannejadi</a>
+      <a href="https://scholar.google.com/citations?user=yiZk6coAAAAJ&hl=en" target="_blank">Advisor: Prof. Mohammad Aliannejadi</a> - <a href="https://amirrezavelae.github.io//publication/bp_ranker" target="_blank">Preprint</a>
     </li>
     <li>
-      <strong>L2D in Bayesian Neural Networks</strong> - 
-      <a href="https://is.mpg.de/person/mcharusaie" target="_blank">Advisor: Amin Charusaie</a>
+      <strong>Optimization in Trust Region Policy Optimization (B.Sc. Thesis) </strong> - <a href="https://scholar.google.ca/citations?user=dcjIFccAAAAJ&hl=en" target="_blank">Advisor: Prof. Hamed Shah-Mansouri</a> - Ongoing
+    <li>
+      <strong>Second-order Methods for Reinforcement Learning</strong> - <a href="https://arashbaharik.github.io/" target="_blank">Advisors: Arash Bahari Kordabadi </a> & <a href="https://hycodev.com/ssoudjani/" target="_blank">Sadegh Soudjani</a> - Ongoing
     </li>
   </ul>
 </section>
 
-<blockquote style="margin-top: 40px; font-style: italic; text-align: center; color: #555;">
+<blockquote style="margin-top: 40px; font-style: italic; text-align: center">
   "The exploiter never tells the exploited how he's exploiting them."<br>— <em>Jean-Luc Godard</em>
 </blockquote>
