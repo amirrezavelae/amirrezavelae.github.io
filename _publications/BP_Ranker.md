@@ -3,12 +3,12 @@ title: "Towards Fair Retrieval:  Controlling Bias through a Backpack-Inspired Ar
 collection: publications 
 category: manuscripts 
 date: 2025-09-02 
-venue: "Journal Name" 
+venue: "Preprint"
 paperurl: "files/backpack__preprint.pdf"  
-permalink: /publication/2025-09-02-my-paper 
-excerpt: "Short summary of the paper." 
-citation: "Lastname, F. (2025). Paper Title. Journal Name."
+permalink: /publication/bp_ranker
+excerpt: "A fairer ranking method built on Backpack language models"
 ---
-tl;dr — The paper proposes a fairer ranking method built on Backpack language models: it splits each token into multiple “sense” vectors, estimates which senses are gender-sensitive, then reweights them at inference to suppress bias—no retraining required. In tests (MS MARCO + a gender-bias IR benchmark), this cut gender skew (lower RaB/ARaB) with only a small hit to ranking quality, and the Backpack ranker still beat a similarly sized GPT-2 baseline. Limitations: the model is relatively small, results focus on binary gender, and bias suppression doesn’t always change the final order of top items. 
- Also builds on the Backpack LM architecture for interpretable “sense” control. 
-arxiv.org
+Women are still underrepresented pretty much everywhere power hangs out—about 27% of MPs worldwide (Aug 2025) and ~27.5% of managerial roles (2022). Not exactly a rounding error. See <a href="https://data.ipu.org/women-averages/?date_year=2025&date_month=08" target="_blank">IPU Parline</a> and <a href="https://www.unwomen.org/sites/default/files/2024-09/progress-on-the-sustainable-development-goals-the-gender-snapshot-2024-en.pdf" target="_blank">UN Women</a>.
+
+**tl;dr:** Ever searched “developer” images and gotten wall-to-wall dudes—or “nurse” and seen mostly women? That’s data bias doing cosplay as relevance. This paper uses Backpack language models (which split each token into multiple, interpretable “sense” vectors) to identify which senses carry gender signal and then *turns those down* at inference—no retraining, just fewer stereotype vibes. On MS MARCO and a gender-bias IR benchmark, it cuts RaB/ARaB (less skew) with only a tiny dent in NDCG/MRR, and the Backpack ranker still edges a similarly sized GPT-2 baseline.
+
