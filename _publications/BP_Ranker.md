@@ -12,3 +12,5 @@ Women are still underrepresented pretty much everywhere power hangs out—about 
 
 **tl;dr:** Ever searched “developer” images and gotten wall-to-wall dudes—or “nurse” and seen mostly women? That’s data bias doing cosplay as relevance. This paper uses Backpack language models (which split each token into multiple, interpretable “sense” vectors) to identify which senses carry gender signal and then *turns those down* at inference—no retraining, just fewer stereotype vibes. On MS MARCO and a gender-bias IR benchmark, it cuts RaB/ARaB (less skew) with only a tiny dent in NDCG/MRR, and the Backpack ranker still edges a similarly sized GPT-2 baseline.
 
+Download the preprint from <a href="http://amirrezavelae.github.io/files/backpack__preprint.pdf" target="_blank">here</a>.
+
