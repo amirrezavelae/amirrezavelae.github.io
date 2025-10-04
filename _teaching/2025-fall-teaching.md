@@ -12,16 +12,16 @@ location: "Tehran, Iran"
 
 ---
 
-## 🎓 Head TA  
+## 🎓 Lead TA
 ### **Introduction to Machine Learning** – [Prof. Emad Fatemizadeh](https://scholar.google.com/citations?user=mWCxEvMAAAAJ&hl=en)  
-✨ Designed & graded assignments • Led tutorials & office hours • Coordinated the TA team  
+✨ Led the TA team for assignment design & grading 
 
 ---
 
 ## 👩‍🏫 Teaching Assistantships  
 
 ### **Introduction to Machine Learning** – [Prof. Zarchi](https://scholar.google.com/citations?user=GbJMZLIAAAAJ&hl=en)  
-📝 Helped prepare & grade final exams • Honored to contribute to a course with **40k+ students worldwide** 🌍 ([course link](https://www.sharifml.ir/))  
+📝 Helped prepare & grade final exams • Contributed to a course with **40k+ students worldwide** 🌍 ([course link](https://www.sharifml.ir/))  
 
 ---
 
@@ -36,4 +36,4 @@ location: "Tehran, Iran"
 ---
 
 ### **Introduction to Machine Learning** – [Prof. Yassaee](https://scholar.google.com/citations?user=Y6vuiBUAAAAJ&hl=en)  
-🧑‍💻 Prepared & graded assignments • Supported students in office hours  
+🧑‍💻 Prepared & graded assignments 

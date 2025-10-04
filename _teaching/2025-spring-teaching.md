@@ -1,45 +1,26 @@
 ---
-title: "2025 Spring"
+title: "Teaching Assistantships"
 collection: teaching
-type: "Graduate & Undergraduate Course"
-permalink: /teaching/2025-spring-teaching
-venue: "Sharif University of Technology, CE & EE Department"
-date: 2026-01-10
+type: "Graduate & Undergraduate Courses"
+permalink: /teaching/assistantships
+venue: "Sharif University of Technology, EE Department"
 location: "Tehran, Iran"
 ---
 
-# Teaching Experience – Spring 2025
+# 👩‍🏫 Teaching Assistantships  
 
 ---
 
-## 👩‍🏫 Teaching Assistantships
-
-### **Reinforcement Learning**  
-- **Instructor:** [Prof. Mohammad Hossein Rohban](https://scholar.google.com/citations?user=pRyJ6FkAAAAJ&hl=en)  
-- **About:** Graduate course on reinforcement learning, with a focus on deep RL.  
-  🔗 [Course Website](https://deeprlcourse.github.io/)  
-
-**My role:**  
-- Designed & graded assignments on Imitation Learning and Bandit Algorithms  
-- Wrote course notes on Bandits and Imitation Learning  
-- Designed some questions for the final exam
+## **Reinforcement Learning** – [Prof. Mohammad Hossein Rohban](https://scholar.google.com/citations?user=pRyJ6FkAAAAJ&hl=en)  
+🤖 Designed & graded assignments on Imitation Learning and Bandit Algorithms • Authored course notes on Bandits & Imitation Learning • Contributed questions for the final exam and graded them  
+🔗 [Course Website](https://deeprlcourse.github.io/)  
 
 ---
 
-### **Convex Optimization**  
-- **Instructor:** [Prof. Yassaee](https://scholar.google.com/citations?user=Y6vuiBUAAAAJ&hl=en)  
-- **About:** Theory-focused course on convex sets, functions, and optimization problems  
-
-**My role:**  
-- Prepared & graded assignments  
-- Led office hours & tutorials  
+## **Convex Optimization** – [Prof. Yassaee](https://scholar.google.com/citations?user=Y6vuiBUAAAAJ&hl=en)  
+📘 Prepared & graded assignments • Designed final project on Cojugate Gradient method
 
 ---
 
-### **Introduction to Machine Learning**  
-- **Instructor:** [Prof. S. Amini](https://scholar.google.com/citations?user=24GngZYAAAAJ&hl=en)  
-- **About:** Introductory elective for students in biomedical, digital, communication, and control fields  
-
-**My role:**  
-- Head TA for practical homework  
-- Prepared & graded assignments  
+## **Introduction to Machine Learning** – [Prof. S. Amini](https://scholar.google.com/citations?user=24GngZYAAAAJ&hl=en)  
+📝 Head TA for practical homework • Designed & graded assignments

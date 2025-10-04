@@ -25,9 +25,9 @@ location: "Tehran, Iran"
 ---
 
 ### **Mathematical Methods in Engineering (Linear Algebra)** – [Dr. Rouhollah Amiri](https://scholar.google.com/citations?user=sOUZ3cUAAAAJ&hl=en)  
-📚 Graded assignments • Helped students with course material during support sessions  
+📚 Designed and graded assignments
 
 ---
 
 ### **Introduction to Machine Learning** – [Dr. Rouhollah Amiri](https://scholar.google.com/citations?user=sOUZ3cUAAAAJ&hl=en)  
-🤖 Assisted across two teaching groups • Prepared & graded assignments • Supported instructors and students  
+🤖 Assisted across two teaching groups • Prepared & graded assignments
