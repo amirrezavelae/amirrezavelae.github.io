@@ -17,15 +17,14 @@ redirect_from:
 
 
 
-<!-- Introduction -->
-<section id="about">
-  <h2>About Me</h2>
+<!-- Informal Introduction -->
+<section id="about-informal">
   <p>
     Hi! I'm Amirreza Velae. I'm currently in my final year as an undergraduate student at Sharif University of Technology, majoring in Electrical Engineering with a minor in Mathematics. I'm fascinated by everything related to intelligence and robotics, specially reinforcement learning and optimization.
     Outside of academics, you’ll usually find me playing chess or soccer, or following chess tournaments. I'm also a big fan of movies and novels, though I don’t get to enjoy them as much these days since I’m quite busy figuring out how an imaginary gambler should play against some fictional bandit machines. For a more formal introduction, please see the section below.
   </p>
   <p>
-    Feel free to reach out if you have a research opportunity, a basement full of spare GPUs, happen to be a time traveler, or just want to ask me about my favorite music band and share yours.
+    Feel free to reach out if you have a research opportunity, a basement full of spare GPUs, happen to be a time traveler, or just want to ask me about my favorite music band and share yours. I also love persian rugs, so if you have one to show off, that would be great too!
   </p>
 </section>
 
@@ -34,7 +33,8 @@ redirect_from:
 
 <!-- Introduction -->
 <section id="about-formal">
-  <h2>About Me</h2>
+  <h2>Formal Amirreza</h2>
+  <hr style="margin-bottom: 20px;">
   <p>
     My name is Amirreza Velae, and I am an undergraduate student in Electrical Engineering and Mathematics at Sharif University of Technology. My academic interests center on the intersection of intelligence and computation, with a focus on modeling and realizing intelligence in machines.
     My primary research interest is reinforcement learning, which I view as a promising framework for advancing toward general intelligence.  I am especially drawn to the theoretical foundations of deep reinforcement learning, bandit algorithms, and statistical learning theory. 
