@@ -1,26 +1,30 @@
 ---
-title: "Teaching Assistantships"
+title: "2024 Fall"
 collection: teaching
-type: "Graduate & Undergraduate Courses"
-permalink: /teaching/assistantships
+type: "Undergraduate Course"
+permalink: /teaching/2024-fall-teaching
 venue: "Sharif University of Technology, EE Department"
+date: 2024-01-17
 location: "Tehran, Iran"
 ---
 
-# 👩‍🏫 Teaching Assistantships  
+# 🍁 Teaching Experience – Fall 2024
 
 ---
 
-## **Reinforcement Learning** – [Prof. Mohammad Hossein Rohban](https://scholar.google.com/citations?user=pRyJ6FkAAAAJ&hl=en)  
-🤖 Designed & graded assignments on Imitation Learning and Bandit Algorithms • Authored course notes on Bandits & Imitation Learning • Contributed questions for the final exam  
-🔗 [Course Website](https://deeprlcourse.github.io/)  
+## 👩‍🏫 Head TA (Assignments)  
+
+### **Signals and Systems** – [Dr. Hamid Behroozi](https://scholar.google.com/citations?user=LKO-LisAAAAJ&hl=en)  
+📝 Led the team for assignment design & grading • Ran weekly problem-solving sessions  
 
 ---
 
-## **Convex Optimization** – [Prof. Yassaee](https://scholar.google.com/citations?user=Y6vuiBUAAAAJ&hl=en)  
-📘 Prepared & graded assignments • Led tutorials and office hours to support student learning  
+## 👩‍🏫 Teaching Assistantships  
+
+### **Introduction to Machine Learning** – [Dr. Mohammad B. Shamsollahi](https://scholar.google.com/citations?user=OgiLEksAAAAJ&hl=en)  
+🤖 Prepared & graded assignments • Supported students with Q&A and academic help  
 
 ---
 
-## **Introduction to Machine Learning** – [Prof. S. Amini](https://scholar.google.com/citations?user=24GngZYAAAAJ&hl=en)  
-📝 Head TA for practical homework • Designed & graded assignments • Provided student guidance and support  
+### **Mathematical Methods in Engineering (Linear Algebra)** – [Dr. Reza Kazemi](https://scholar.google.com/citations?user=wKorgK4AAAAJ&hl=en) & [Dr. Rouhollah Amiri](https://scholar.google.com/citations?user=sOUZ3cUAAAAJ&hl=en)  
+📚 Managed assignments for both teaching groups • Assisted students with coursework and questions  
