@@ -33,7 +33,7 @@ redirect_from:
 
 <!-- Introduction -->
 <section id="about-formal">
-  <h2>Formal Amirreza</h2>
+  <h2>Formal Bio</h2>
   <hr style="margin-bottom: 20px;">
   <p>
     My name is Amirreza Velae, and I am an undergraduate student in Electrical Engineering and Mathematics at Sharif University of Technology. My academic interests center on the intersection of intelligence and computation, with a focus on modeling and realizing intelligence in machines.
@@ -44,8 +44,8 @@ redirect_from:
     For my B.Sc. thesis, I investigated the convergence properties of Trust Region Policy Optimization (TRPO) under the supervision of 
     <a href="https://scholar.google.ca/citations?user=dcjIFccAAAAJ&hl=en" target="_blank">Prof. Hamed Shah-Mansouri</a>.
     In the summer of 2024, I conducted remote research at the Max Planck Institute for Intelligent Systems with 
-    <a href="https://is.mpg.de/person/mcharusaie" target="_blank">Amin Charusaie</a>,  where I explored incorporating human feedback into neural networks using Bayesian layers. 
-    Additionally, I collaborated with <a href="https://scholar.google.com/citations?user=yiZk6coAAAAJ&hl=en" target="_blank">Prof. Mohammad Aliannejadi</a> and <a href="https://scholar.google.com/citations?user=C-LkdokAAAAJ&hl=en" target="_blank">Prof. Lall</a> on debiasing ranking algorithms, focusing on methods to mitigate gender bias in language models.  
+    <a href="https://is.mpg.de/person/mcharusaie" target="_blank">Amin Charusaie</a>.
+    Additionally, I collaborated with <a href="https://scholar.google.com/citations?user=yiZk6coAAAAJ&hl=en" target="_blank">Prof. Mohammad Aliannejadi</a> on debiasing ranking algorithms, focusing on methods to mitigate gender bias in language models.  
     In the summer of 2025, I am working under the supervision of <a href="https://arashbaharik.github.io/" target="_blank">Arash Bahari Kordabadi</a> and <a href="https://hycodev.com/ssoudjani" target="_blank">Prof. Sadegh Soudjani</a> at the Max Planck Institute for Software Systems, where my research centers on the development of second-order reinforcement learning algorithms for linear-quadratic systems.
   </p>
 </section>
