@@ -25,9 +25,9 @@ author:
   avatar           : "profile.png"
   name             : "Amirreza"
   pronouns         : # example: "she/her"
-  bio              : "Incoming M.Sc. student at KAIST | B.Sc. in EE, Sharif University of Technology"
-  location         : "Tehran"
-  employer         : "Sharif University"
+  bio              : "M.Sc. student at KAIST | B.Sc. in EE, Sharif University of Technology"
+  location         : "Daejeon, South Korea"
+  employer         : "KAIST"
   uri              : # URL
   email            : "amirrezavelae@gmail.com"
 

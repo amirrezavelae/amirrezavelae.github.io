@@ -20,7 +20,7 @@ redirect_from:
 <!-- Informal Introduction -->
 <section id="about-informal">
   <p>
-    Hi! I'm Amirreza Velae. I'm finishing my final year as an undergraduate at Sharif University of Technology, majoring in Electrical Engineering with a minor in Applied Mathematics, and I'll be joining KAIST in 2026 to start an M.Sc. in Electrical Engineering. I'm fascinated by everything related to intelligence and robotics, especially reinforcement learning, optimization, and statistics.
+    Hi! I'm Amirreza Velae. I recently finished my B.Sc. in Electrical Engineering (with a minor in Applied Mathematics) at Sharif University of Technology, and I'm now an M.Sc. student in Electrical Engineering at KAIST. I'm fascinated by everything related to intelligence and robotics, especially reinforcement learning, optimization, and statistics.
     Outside of academics, you'll usually find me playing chess or soccer, or following chess tournaments. I'm also a big fan of movies and novels, though I don't get to enjoy them as much these days since I'm quite busy figuring out how an imaginary gambler should play against some fictional bandit machines. For a more formal introduction, please see the section below.
   </p>
   <p>
@@ -36,12 +36,12 @@ redirect_from:
   <h2>Formal Bio</h2>
   <hr style="margin-bottom: 20px;">
   <p>
-    My name is Amirreza Velae. I am a final-year undergraduate in Electrical Engineering, with a minor in Applied Mathematics, at Sharif University of Technology, and I will begin an M.Sc. in Electrical Engineering at the <a href="https://www.kaist.ac.kr/en/" target="_blank">Korea Advanced Institute of Science and Technology (KAIST)</a> in Fall 2026, working with the U-AIM Lab under Prof. Chang D. Yoo. My academic interests center on the intersection of intelligence and computation, with a focus on modeling and realizing intelligence in machines.
+    My name is Amirreza Velae. I hold a B.Sc. in Electrical Engineering, with a minor in Applied Mathematics, from Sharif University of Technology, and I am currently an M.Sc. student in Electrical Engineering at the <a href="https://www.kaist.ac.kr/en/" target="_blank">Korea Advanced Institute of Science and Technology (KAIST)</a>, working with the U-AIM Lab under Prof. Chang D. Yoo. My academic interests center on the intersection of intelligence and computation, with a focus on modeling and realizing intelligence in machines.
     My primary research interest is reinforcement learning, which I view as a promising framework for advancing toward general intelligence. I am especially drawn to the theoretical foundations of deep reinforcement learning, statistics, and optimization.
   </p>
 
   <p>
-    For my B.Sc. thesis, I am studying the numerical optimization behind Trust Region Policy Optimization (TRPO) under the supervision of
+    For my B.Sc. thesis, I studied the numerical optimization behind Trust Region Policy Optimization (TRPO) under the supervision of
     <a href="https://scholar.google.ca/citations?user=dcjIFccAAAAJ&hl=en" target="_blank">Prof. Hamed Shah-Mansouri</a>.
     Since April 2025, I have been leading a small research group on robust reinforcement learning under
     <a href="https://scholar.google.com/citations?user=24GngZYAAAAJ&hl=en" target="_blank">Prof. Sajjad Amini</a>, conducting literature reviews and implementing algorithms.
@@ -58,9 +58,9 @@ redirect_from:
 <section id="education">
   <h2>🎓 Education</h2>
   <ul>
-    <li><strong>Korea Advanced Institute of Science and Technology (KAIST)</strong> - M.Sc. in Electrical Engineering, U-AIM Lab - Expected 2026-2028</li>
-    <li><strong>Sharif University of Technology</strong> - B.Sc. in Electrical Engineering, Minor in Applied Mathematics - Expected graduation in 2026</li>
-    <li><strong>Allameh Jafari High School (NODET)</strong> - Mathematics and Physics - Graduated in 2021</li>
+    <li><strong>Korea Advanced Institute of Science and Technology (KAIST)</strong> - M.Sc. in Electrical Engineering, U-AIM Lab - Sep 2026 - Jun 2028 (expected)</li>
+    <li><strong>Sharif University of Technology</strong> - B.Sc. in Electrical Engineering, Minor in Applied Mathematics - Sep 2021 - Jun 2026</li>
+    <li><strong>Allameh Jafari High School (NODET)</strong> - Mathematics and Physics - 2018 - 2021</li>
   </ul>
 </section>
 

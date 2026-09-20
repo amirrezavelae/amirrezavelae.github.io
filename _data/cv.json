@@ -3,12 +3,12 @@
     "name": "Amirreza Velae",
     "email": "amirrezavelae@gmail.com",
     "website": "https://amirrezavelae.github.io/",
-    "summary": "Incoming M.Sc. student in Electrical Engineering at KAIST (U-AIM Lab), working on reinforcement learning, optimization, and statistics. B.Sc. in Electrical Engineering, minor in Applied Mathematics, Sharif University of Technology.",
+    "summary": "M.Sc. student in Electrical Engineering at KAIST (U-AIM Lab), working on reinforcement learning, optimization, and statistics. B.Sc. in Electrical Engineering, minor in Applied Mathematics, Sharif University of Technology (2026).",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Tehran",
-      "countryCode": "IR",
+      "city": "Daejeon",
+      "countryCode": "KR",
       "region": ""
     },
     "profiles": [
@@ -62,7 +62,7 @@
       "area": "B.Sc. in Electrical Engineering, Minor in Applied Mathematics",
       "studyType": "Bachelor of Science",
       "startDate": "2021-09-01",
-      "endDate": "2026-06 (expected)",
+      "endDate": "2026-06-01",
       "gpa": "17.65/20 (3.7/4.0)",
       "courses": []
     },
