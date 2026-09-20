@@ -1,15 +1,14 @@
 {
   "basics": {
-    "name": "Amirreza",
-    "email": "amirrezavelae@ee.sharif.edu",
-    "phone": "",
+    "name": "Amirreza Velae",
+    "email": "amirrezavelae@gmail.com",
     "website": "https://amirrezavelae.github.io/",
-    "summary": "Currently employed at Sharif University. Student",
+    "summary": "Incoming M.Sc. student in Electrical Engineering at KAIST (U-AIM Lab), working on reinforcement learning, optimization, and statistics. B.Sc. in Electrical Engineering, minor in Applied Mathematics, Sharif University of Technology.",
     "location": {
       "address": "",
       "postalCode": "",
       "city": "Tehran",
-      "countryCode": "US",
+      "countryCode": "IR",
       "region": ""
     },
     "profiles": [
@@ -19,101 +18,195 @@
         "url": "https://github.com/amirrezavelae"
       },
       {
+        "network": "LinkedIn",
+        "username": "amirreza-velae",
+        "url": "https://www.linkedin.com/in/amirreza-velae-22166321a/"
+      },
+      {
+        "network": "Google Scholar",
+        "username": "Amirreza Velae",
+        "url": "https://scholar.google.com/citations?user=01OP5RYAAAAJ&hl=en"
+      },
+      {
         "network": "Twitter",
         "username": "hellsiceseller",
         "url": "https://twitter.com/hellsiceseller"
       }
     ]
   },
-  "work": [],
-  "education": [],
-  "skills": [],
-  "languages": [],
-  "interests": [],
+  "work": [
+    {
+      "company": "Tabdeal",
+      "position": "Software Engineering Intern",
+      "website": "https://tabdeal.org/",
+      "startDate": "2024-08-01",
+      "endDate": "2025-01-01",
+      "summary": "On-site software engineering internship in Tehran, Iran.",
+      "highlights": [
+        "Assisted in backend Python development, optimized database search queries, and integrated internal information retrieval APIs for customer support tracking tools."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Korea Advanced Institute of Science and Technology (KAIST)",
+      "area": "M.Sc. in Electrical Engineering, U-AIM Lab",
+      "studyType": "Master of Science",
+      "startDate": "2026-09-01",
+      "endDate": "2028-06 (expected)",
+      "gpa": "",
+      "courses": []
+    },
+    {
+      "institution": "Sharif University of Technology",
+      "area": "B.Sc. in Electrical Engineering, Minor in Applied Mathematics",
+      "studyType": "Bachelor of Science",
+      "startDate": "2021-09-01",
+      "endDate": "2026-06 (expected)",
+      "gpa": "17.65/20 (3.7/4.0)",
+      "courses": []
+    },
+    {
+      "institution": "Allameh Jafari High School (NODET)",
+      "area": "Mathematics and Physics",
+      "studyType": "High School Diploma",
+      "startDate": "2018-09-01",
+      "endDate": "2021-06-01",
+      "gpa": "19.23/20",
+      "courses": []
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming",
+      "keywords": ["Python (PyTorch, OpenCV, LangChain, Django)", "MATLAB", "C++", "Java", "MySQL"]
+    }
+  ],
+  "languages": [
+    { "language": "Persian", "fluency": "Native" },
+    { "language": "English", "fluency": "Fluent (IELTS 7.5)" },
+    { "language": "Turkish", "fluency": "Fluent" },
+    { "language": "Russian", "fluency": "Elementary" },
+    { "language": "German", "fluency": "Beginner" }
+  ],
+  "interests": [
+    { "name": "Chess", "keywords": [] },
+    { "name": "Cinema", "keywords": [] },
+    { "name": "Soccer", "keywords": [] },
+    { "name": "Literature", "keywords": [] }
+  ],
   "references": [],
   "publications": [
     {
-      "name": "Towards Fair Retrieval:  Controlling Bias through a Backpack-Inspired Architecture",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "http://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "Controlling Gender Bias in Retrieval",
+      "publisher": "ECIR 2026",
+      "releaseDate": "2025-11-01",
+      "website": "https://arxiv.org/abs/2511.00875",
+      "summary": "With Amirabbas Afzali (equal contribution), Iman Ahmadi, and Prof. Mohammad Aliannejadi (University of Amsterdam). Converted the Backpack LM into an encoder, enabling bias mitigation for ranking tasks."
+    },
+    {
+      "name": "Second-Order Policy Gradient Method for the LQR",
+      "publisher": "Engineering Applications of Artificial Intelligence",
+      "releaseDate": "2025-11-01",
+      "website": "https://arxiv.org/pdf/2511.02095",
+      "summary": "With Arash Bahari Kordabad and Prof. Sadegh Soudjani (Max Planck Institute for Software Systems). Designed an algorithm for exact second-order updates in deterministic policy-gradient methods for the LQR."
     }
   ],
   "presentations": [
     {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
+      "name": "Robust Reinforcement Learning",
+      "event": "Sharif University of Technology, Poster Session",
+      "date": "2025-01-01",
+      "location": "Tehran, Iran",
+      "description": "Poster presentation on robust reinforcement learning and related projects."
     }
   ],
   "teaching": [
     {
       "course": "2023 Spring",
-      "institution": "Sharif University of Technology, EE department",
-      "date": "2023-01-17",
-      "role": "Undergraduate course",
-      "description": ""
-    },
-    {
-      "course": "2024 Fall",
       "institution": "Sharif University of Technology, EE Department",
-      "date": "2024-01-17",
+      "date": "2023-01-17",
       "role": "Undergraduate Course",
-      "description": ""
+      "description": "Probability and Statistics"
     },
     {
       "course": "2024 Spring",
       "institution": "Sharif University of Technology, EE Department",
       "date": "2024-01-10",
       "role": "Undergraduate Course",
-      "description": ""
+      "description": "Signals and Systems, Probability and Statistics, Linear Algebra, Machine Learning"
+    },
+    {
+      "course": "2024 Fall",
+      "institution": "Sharif University of Technology, EE Department",
+      "date": "2024-09-17",
+      "role": "Undergraduate Course",
+      "description": "Signals and Systems (Head TA), Machine Learning (Lead TA), Linear Algebra, Convex Optimization I, Deep Learning"
+    },
+    {
+      "course": "2025 Spring",
+      "institution": "Sharif University of Technology, CE & EE Departments",
+      "date": "2025-01-10",
+      "role": "Graduate & Undergraduate Course",
+      "description": "Reinforcement Learning, Convex Optimization, Machine Learning, Deep Reinforcement Learning"
     },
     {
       "course": "2025 Fall",
       "institution": "Sharif University of Technology, CE & EE Department",
       "date": "2025-09-10",
       "role": "Graduate & Undergraduate Course",
-      "description": ""
-    },
-    {
-      "course": "2025 Spring",
-      "institution": "Sharif University of Technology, CE & EE Department",
-      "date": "2026-01-10",
-      "role": "Graduate & Undergraduate Course",
-      "description": ""
+      "description": "Machine Learning (Lead TA), Deep Learning, Convex Optimization, Reinforcement Learning, High-Dimensional Probability Analysis, High-Dimensional Statistics"
     }
   ],
   "portfolio": [
     {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
+      "name": "Robust Reinforcement Learning",
+      "category": "Course Project",
+      "date": "2025-01-01",
+      "url": "https://github.com/amirrezavelae/Reinforcement-Learning",
+      "description": "Poster presentation on robust reinforcement learning and related projects."
+    },
+    {
+      "name": "GAN-BERT for Text Classification",
+      "category": "Course Project",
       "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+      "url": "https://github.com/amirrezavelae/GAN-BERT",
+      "description": "Implementation of the GANBERT model for a text classification task."
+    },
+    {
+      "name": "Online Geometric Optimization in the Bandit Setting",
+      "category": "Course Project",
+      "date": "",
+      "url": "https://github.com/amirrezavelae?tab=repositories",
+      "description": "Presentation on online geometric optimization in the bandit setting against an adaptive adversary."
+    },
+    {
+      "name": "High-Dimensional Analysis of the Neural Tangent Kernel",
+      "category": "Course Project",
+      "date": "",
+      "url": "https://github.com/hoomanzolfaghari84/HDP-Project",
+      "description": "High-dimensional analysis of the Neural Tangent Kernel."
+    },
+    {
+      "name": "Expectation-Maximization for a Mixture of Gaussians",
+      "category": "Course Project",
+      "date": "",
+      "url": "https://github.com/amirrezavelae/Introduction-to-Machine-Learning",
+      "description": "Expectation-Maximization for a mixture of Gaussians."
+    },
+    {
+      "name": "Lower Bound for Non-Stationary Bandit Algorithms",
+      "category": "Course Project",
+      "date": "",
+      "url": "https://github.com/amirrezavelae/Information-Theory--Statistics--and-Learning/tree/main/Project/Phase%201/Slides",
+      "description": "Lower-bound analysis for a non-stationary bandit algorithm."
+    },
+    {
+      "name": "Deep Learning Course Projects",
+      "category": "Course Project",
+      "date": "",
+      "url": "https://github.com/amirrezavelae/Deep-learning",
+      "description": "Multiple deep learning course projects."
     }
   ]
 }

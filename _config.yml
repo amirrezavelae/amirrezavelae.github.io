@@ -12,7 +12,7 @@ site_theme               : "default"
 title                    : "Amirreza Velae"
 title_separator          : "-"
 name                     : &name "Amirreza Velae"
-description              : &description "personal description"
+description              : &description "Personal site of Amirreza Velae — Electrical Engineering researcher working on reinforcement learning, optimization, and statistics."
 url                      : https://amirrezavelae.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "amirrezavelae/amirrezavelae.github.io"
@@ -24,17 +24,17 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Amirreza"
-  pronouns         : # example: "she/her"  
-  bio              : "Student"
+  pronouns         : # example: "she/her"
+  bio              : "Incoming M.Sc. student at KAIST | B.Sc. in EE, Sharif University of Technology"
   location         : "Tehran"
   employer         : "Sharif University"
   uri              : # URL
-  email            : "amirrezavelae@ee.sharif.edu" 
+  email            : "amirrezavelae@gmail.com"
 
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : # "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=01OP5RYAAAAJ&hl=en"
   inspire-hep      : # URL
   impactstory      : # URL
   orcid            : #"http://orcid.org/yourorcidurl"
@@ -62,7 +62,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "amirreza-velae-22166321a"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
