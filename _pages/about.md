@@ -84,6 +84,6 @@ redirect_from:
 </blockquote>
 
 <div style="display: flex; gap: 16px; margin-top: 40px; justify-content: center; align-items: flex-start">
-  <img src="/images/ukraine.jpg" style="width: calc(50% - 8px); height: auto">
-  <img src="/images/Iran.jpg" style="width: calc(50% - 8px); height: auto">
+  <img src="/images/ukraine.jpg" alt="Oleksandr Matsievskyi" style="width: calc(50% - 8px); height: auto">
+  <img src="/images/Iran.jpg" alt="Iranian flag in Sharif University" style="width: calc(50% - 8px); height: auto">
 </div>
