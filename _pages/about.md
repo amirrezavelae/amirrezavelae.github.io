@@ -82,8 +82,8 @@ redirect_from:
 <blockquote style="margin-top: 40px; font-style: italic; text-align: center">
   "Instead of trying to produce a program to simulate the adult mind, why not rather try to produce one which simulates the child's? If this were then subjected to an appropriate course of education one would obtain the adult brain."<br>— <em>Alan Turing</em>
 </blockquote>
-<!-- 
+
 <div style="display: flex; gap: 16px; margin-top: 40px; justify-content: center; align-items: flex-start">
   <img src="/images/ukraine.jpg" alt="Oleksandr Matsievskyi" style="width: calc(50% - 8px); height: auto">
   <img src="/images/Iran.jpg" alt="Iranian flag in Sharif University" style="width: calc(50% - 8px); height: auto">
-</div> -->
+</div>
